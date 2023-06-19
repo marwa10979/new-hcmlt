@@ -1,0 +1,7 @@
+<div class="container">         
+  <img src="assets/img/A.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+    <img src="assets/img/B.JPG" class="img-circle" alt="Cinque Terre" width="304" height="236">
+    <img src="assets/img/C.JPG" class="img-circle" alt="Cinque Terre" width="304" height="236">
+    <img src="assets/img/H.JPG" class="img-circle" alt="Cinque Terre" width="304" height="236">
+   
+</div>
