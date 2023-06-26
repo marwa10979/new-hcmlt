@@ -248,10 +248,146 @@
                 transform: translateX(-100%);
             }
         }
+
+            {
+            font-family: sans-serif;
+            background: #dde1e7;
+            min-height: 100vh;
+        }
+
+        .center,
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .click-me {
+            display: block;
+            width: 400px;
+            height: 50px;
+            background: #dde1e7;
+            box-shadow: -3px -3px 7px #fffdfdcc, 3px 3px 5px rgba(241, 208, 132, 0.342);
+            text-align: center;
+            font-size: 22px;
+            font-weight: bolder;
+            line-height: 50px;
+            cursor: pointer;
+            font-size: xx-large;
+
+
+        }
+
+        #click {
+            display: none;
+        }
+
+        .click-me:hover {
+            color: #0a5878;
+        }
+
+        .content {
+            visibility: hidden;
+            width: 330px;
+            height: auto;
+            
+            padding: 30px 35px 40px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        #temp {
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            font-size: 25px;
+            background: #dde1e7;
+            padding: 3px;
+            padding-left: 11px;
+            padding-right: 11px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #click:checked~.content {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .text {
+            font-size: 30px;
+            color: #000000;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        label {
+            display: block;
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        input {
+            display: block;
+            height: 43px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.07);
+            border-radius: 3px;
+            border: none;
+
+            margin-top: 8px;
+
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        ::placeholder {
+            color: #4b4e4d;
+            padding-left: 10px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 35px;
+            padding: 12px;
+            background: #dde1e7;
+            border: none;
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
     </style>
 </head>
 
 <body>
+
+    <div class="center" >
+        <input type="checkbox" id="click">
+        <label for="click" class="click-me"> كل عام وانتم بخير </label>
+        <div class="content">
+
+            <label for="click" id="temp">x</label>
+
+            <form >
+
+               <!-- <img src="assets/img/EID/CARD1.jpg">-->
+               <video width="520" height="440"  controls  >
+                <source src="assets/img/EID/eid.mp4" type="video/mp4">
+                <source src="assets/img/EID/eid.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+
+            </form>
+        </div>
+    </div>
+    </div>
     <!-- =============== Preloader =============== -->
     <div id="preloader">
         <div id="loading">
@@ -353,11 +489,11 @@
         <!-- =============== container-fluid =============== -->
     </nav>
     <!-- =============== header =============== -->
-<!----------------popup------------->
+    <!----------------popup------------->
 
-  
-  <!-- Modal -->
-  
+
+    <!-- Modal -->
+
     <!----------------------------------------------------------->
 
     <header id="home" class="header">
@@ -1262,7 +1398,8 @@
                         <img src="import_link/images/mof_gov.png" alt="">
                     </div>
                     <div class="detail-box">
-                        <h5> <a href="https://mof.gov.eg/ar" target="_blank" style="color: white;"> وزارة المالية المصرية </a>
+                        <h5> <a href="https://mof.gov.eg/ar" target="_blank" style="color: white;"> وزارة المالية
+                                المصرية </a>
                         </h5>
 
 
@@ -1273,7 +1410,8 @@
                         <img src="import_link/images/maritime.png" alt="">
                     </div>
                     <div class="detail-box">
-                        <h5> <a href="https://www.mts.gov.eg/#" target="_blank" style="color: white;">قطاع النقل البحريى </a>
+                        <h5> <a href="https://www.mts.gov.eg/#" target="_blank" style="color: white;">قطاع النقل البحريى
+                            </a>
                         </h5>
 
 
@@ -1499,7 +1637,9 @@
 
 
 
-
+            $(document).ready(function() {
+     $('video').prop('',true).play()
+ });
 
         </script>
 
