@@ -1051,7 +1051,7 @@ blockquote {
 
 /*----------- contact ------------*/
 #contact {
-    background: url("../img/footer022.png") no-repeat scroll center center / cover;
+   background-color: white;
     color: #fff;
     overflow: hidden;
     padding: 180px 0;
