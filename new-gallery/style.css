@@ -314,13 +314,9 @@ a img.aligncenter {
 	background: #ffffff;
 }
 
-.hamburger{
-	right: 30px;
-	top: 22px;
-	left: auto;
-}
+
 .hamburger__icon, .hamburger__icon::before, .hamburger__icon::after {
-    background-color: #333333;
+    background-color: transparent;
 	width: 35px;
 	height: 4px;
 }
