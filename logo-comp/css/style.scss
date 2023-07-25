@@ -38,7 +38,7 @@ $btnColor: #373636;
 
 body {
   @include main-font;
-  color: #101010;
+  color:transparent;
   background-color: #ffffff;
 }
 
@@ -875,7 +875,6 @@ a:focus {
   padding: 20px 0;
   margin: 0 auto;
   text-align: center;
-  border-top: 1.5px solid $primary1;
   width: 80%;
 }
 
