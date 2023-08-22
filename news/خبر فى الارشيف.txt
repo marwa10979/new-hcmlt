@@ -1,0 +1,20 @@
+             <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                    <div class="blog-img">
+                        <img src="news/images/1111.jpg" />
+                    </div>
+                    <!--<div class="row">
+					  <div class="data">dd</div>
+					  <div class="month">Month</div>
+					  </div>-->
+                    <div class="row">
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 28 مايو 2023 </h4>
+                        <h3 style="color: white;">
+                            لقاء وزير النقل مع العاملين بالشركة المصرية لأعمال النقل البحري (مارترانس) </h3>
+                        <p style="color: #e7e8f4;"> وزارة_النقل-
+                            خلال لقاء وزير النقل مع العاملين بالشركة المصرية لأعمال النقل البحري (مارترانس) </p>
+                        <br><br><br><br><br><br><br>
+                        <a href="news/news8.html" target="_blank">اقرأ المزيد</a>
+
+
+                    </div>
+                </div>
