@@ -45,9 +45,9 @@ a {
 }
 
 .header {
-    background: rgba(0, 0, 0, 0) url("../img/baner010.png") repeat fixed center 0 / cover;
+    background: rgba(0, 0, 0, 0) url("../img/last-banar.jpeg") repeat fixed center 0 / cover;
     color: #fff;
-    height: 97%;
+    height: 99%;
     overflow: hidden;
     transition: all 0.35s ease 0s;
 }
