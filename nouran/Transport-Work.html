@@ -17,7 +17,7 @@
 	<!-- Site Icons -->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
+	<link rel="stylesheet" href="css/carousel-style.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Site CSS -->
@@ -33,90 +33,6 @@
 	
     <![endif]-->
 	<!----carousel-->
-<style>
-body {
-  margin: 0;
-  background: lightgray;
-  text-align: center;
-  font-family: sans-serif;
-  color: #fefefe;
-}
-.container {
-  position: relative;
-  width: 320px;
-  margin: 100px auto 0 auto;
-  perspective: 1000px;
-}
-
-.carousel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d; 
-  animation: rotate360 60s infinite forwards linear;
-}
-.carousel__face { 
-  position: absolute;
-  width: 300px;
-  height: 187px;
-  top: 20px;
-  left: 10px;
-  right: 10px;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
-  display: flex;
-}
-
-span {
-  margin: auto;
-  font-size: 2rem;
-}
-
-
-.carousel__face:nth-child(1) {
-  background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: rotateY(  0deg) translateZ(430px); }
-.carousel__face:nth-child(2) { 
-  background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    transform: rotateY( 40deg) translateZ(430px); }
-.carousel__face:nth-child(3) {
-  background-image: url("https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: rotateY( 80deg) translateZ(430px); }
-.carousel__face:nth-child(4) {
-  background-image: url("https://images.pexels.com/photos/1394841/pexels-photo-1394841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: rotateY(120deg) translateZ(430px); }
-.carousel__face:nth-child(5) { 
-  background-image: url("https://images.pexels.com/photos/969679/pexels-photo-969679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
- transform: rotateY(160deg) translateZ(430px); }
-.carousel__face:nth-child(6) { 
-  background-image: url("https://images.pexels.com/photos/1834400/pexels-photo-1834400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
- transform: rotateY(200deg) translateZ(430px); }
-.carousel__face:nth-child(7) { 
-  background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
- transform: rotateY(240deg) translateZ(430px); }
-.carousel__face:nth-child(8) {
-  background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: rotateY(280deg) translateZ(430px); }
-.carousel__face:nth-child(9) {
-  background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  transform: rotateY(320deg) translateZ(430px); }
-
-
-
-@keyframes rotate360 {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
-
-
-
-</style>
-
-	<!---end carousel-->
 
 </head>
 
@@ -132,29 +48,7 @@ span {
 					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<!--<div class="collapse navbar-collapse" id="navbars-rs-food">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
-								<a class="dropdown-item" href="stuff.html">Stuff</a>
-								<a class="dropdown-item" href="gallery.html">Gallery</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="blog.html">blog</a>
-								<a class="dropdown-item" href="blog-details.html">blog Single</a>
-							</div>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-					</ul>
-				</div>-->
+			
 			</div>
 		</nav>
 	</header>
@@ -169,9 +63,7 @@ span {
 					<div class="row">
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>شركة أعمال النقل </strong></h1>
-							<!--<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>-->
-							<!--<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>-->
+					
 						</div>
 					</div>
 				</div>
@@ -181,10 +73,7 @@ span {
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<!--<h1 class="m-b-20"><strong></strong></h1>-->
-							<!--<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>-->
-							<!--<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>-->
+					
 						</div>
 					</div>
 				</div>
@@ -202,23 +91,29 @@ span {
 	<div class="about-section-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
+			<!--	<div class="col-lg-6 col-md-6 col-sm-12">
 					<img src="images/Slider-09.jpg" alt="" class="img-fluid">
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 text-center" style="text-align: right">
+				</div>-->
+				
+				
+				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div class="inner-column">
 						<h1><span> نبذه عن الشركة</span></h1>
 						<!--<h4>Little Story</h4>-->
-						<p style="font-size: 24px;font-weight: 200px;text-align:right;"> تأسست الشركة بموجب قرار وزير
+						<p style="font-size: 24px;font-weight: 200px;text-align:right;width: 100%;"> تأسست الشركة بموجب قرار وزير
 							النقل رقم 164/ 1975 ثم تحولت الى شركة تابعه للشركة القابضة للنقل البحرى والبرى بموجب قانون
 							قطاع الاعمال العام رقم 203/1991 ولائحته التنفيذية ثم تحولت لشركة مساهمة مصرية خاضعة لقانون
 							الشركات المساهمة رقم 159/1981 ولائحته التنفيذية مشمولة برعاية الشركة القابضة للنقل البحرى
-							والبرى .
-							
+							والبرى 
+						<br>
 							هى من الشركات المتميزة فى مجال النقل البرى للبضائع بجمهوريه مصر العربية حيث ان قوام اسطولها
 							فى 30/6/2022 هو 108 سيارة متنوعه مابين المرسيدس حديث العهد باخدمة وهو الغالب وبين ماهو
-							السينيو تراك – الماك وخلافة ومعظم هذا الاسطول صالح للتشغيل فى نقل البضائع والمواد البترولية
-							والمهمات اللازمة للتشييد والبناء كما وان للشركة القيام بأعمال التخزين المحلى وانشاء مخازن
+							السينيو تراك – الماك وخلافة
+							<br>
+							ومعظم هذا الاسطول صالح للتشغيل فى نقل البضائع والمواد البترولية
+							والمهمات اللازمة للتشييد والبناء
+							<br>
+							كما وان للشركة القيام بأعمال التخزين المحلى وانشاء مخازن
 							الترانزيت فى القاهرة ومختلف المدن والموانى لايداع وتخزين البضائع فيها توطئه نقلها والقيام
 							بعمليات الشحن والتفريغ والتخليص الجمركى وذلك من خلال فروعها الخمس
 							<br>
@@ -259,27 +154,31 @@ span {
 						</ul>
 
 						<!--<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>-->
+			
+						<div class="container">
+							<div class="carousel">
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span> </span></div>
+							  <div class="carousel__face"><span></span></div>
+							  <div class="carousel__face"><span></span></div>
+							</div>
+						
+						  </div>
 					</div>
 		
 				</div>
+				
 			</div>
 		</div>
 	</div>
 	<!-- End About -->
 
-	<div class="container">
-		<div class="carousel">
-		  <div class="carousel__face"><span>This is something</span></div>
-		  <div class="carousel__face"><span>Very special</span></div>
-		  <div class="carousel__face"><span>Special is the key</span></div>
-		  <div class="carousel__face"><span>For you</span></div>
-		  <div class="carousel__face"><span>Just give it</span></div>
-		  <div class="carousel__face"><span>A try</span></div>
-		  <div class="carousel__face"><span>And see</span></div>
-		  <div class="carousel__face"><span>How IT Works</span></div>
-		  <div class="carousel__face"><span>Woow</span></div>
-		</div>
-	  </div>
+
 
 	<!--<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>-->
 
