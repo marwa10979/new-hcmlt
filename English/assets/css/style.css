@@ -40,14 +40,14 @@ a {
 	position: relative;
 }
 .header {
-   background: rgba(0, 0, 0, 0) url("new baner010.jpeg") repeat fixed center 0 / cover  ;
+   background: rgba(0, 0, 0, 0) url("../img/last-banar.jpeg") repeat fixed center 0 / cover  ;
     color: #fff;
     height: 98%;
     overflow: hidden;
     transition: all 0.35s ease 0s;
 }
 .header2 {
-   background: rgba(0, 0, 0, 0) url("new baner010.jpeg") repeat fixed center 0 / cover  ;
+   background: rgba(0, 0, 0, 0) url("../img/last-banar.jpeg") repeat fixed center 0 / cover  ;
     color: #fff;
     height: 98%;
     overflow: hidden;

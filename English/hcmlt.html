@@ -188,6 +188,57 @@
             cursor: auto;
         }
     </style>
+       
+       <!-------خاص باحجز الان للثلاث شركات----->
+        <style>
+           div.gallery {
+               border: 1px solid #ccc;
+           }
+   
+           div.gallery:hover {
+               border: 1px solid #777;
+           }
+   
+           div.gallery img {
+               width: 100%;
+               height: auto;
+           }
+   
+           div.desc {
+               padding: 15px;
+               text-align: center;
+           }
+   
+           * {
+               box-sizing: border-box;
+           }
+   
+           .responsive {
+               padding: 0 6px;
+               float: left;
+               width: 24.99999%;
+           }
+   
+           @media only screen and (max-width: 700px) {
+               .responsive {
+                   width: 49.99999%;
+                   margin: 6px 0;
+               }
+           }
+   
+           @media only screen and (max-width: 500px) {
+               .responsive {
+                   width: 100%;
+               }
+           }
+   
+           .clearfix:after {
+               content: "";
+               display: table;
+               clear: both;
+           }
+       </style>
+       <!----end---->
 </head>
 
 <body>
@@ -783,56 +834,59 @@
     </section>
 
     <!-- =============== Services =============== -->
-    <section id="Services" class="">
-        <!-- =============== container =============== -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+    <!--------------------EG BUS AD ---------------------------->
 
-
-                    <div class="col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                        <h1 style="color: brown">EG Bus</h1>
-                        <p style="text-align: justify;color: blue; font-size: 26px">The company provides the best
-                            and
-                            latest services for the convenience of its customers (WIFI - GPS - screens in the back
-                            of
-                            chairs - toilets - refrigerator - hospitality). The company has more than 48 locations
-                            that
-                            vary between (branches - workshops and garages - operating centers) at the level of the
-                            Republic in order to serve its huge fleet of cars. The company is one of the largest
-                            passenger transport companies in the Arab Republic of Egypt, where its services cover
-                            the
-                            governorates of Upper Egypt, the Red Sea, the New Valley, in addition to linking the
-                            governorates of East Delta, Central and West Delta, the cities of the Canal and Sinai
-                            with
-                            regular lines, through its 98 lines at the level of country
-                        </p>
-
-                    </div>
-                    <div class="col-md-6 wow fadeInLeft animated" data-wow-delay=".5s">
-                        <br><br>
-                        <br><br>
-                        <br><br>
-
-                        <img src="assets/img/header.jpg" style="width: 168%">
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="container">
-                <button style="font-size: 25px;color: brown " class=" btn btn-primary" role="button"><a
-                        href="https://eg-bus.com/" target="_blank">Book Now</a></button>
+    <h2 style="text-align: center;"> شركات نقل الركاب</h2>
+    <br><br>
+<div class="companies" style="width:100%; align-items: center;padding-left: 250px;">
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/eg-bus.jpg">
+                <img src="assets/img/photo-activity/eg-bus.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc" style="color: blue;font-size: 26px;">بنقرب المسافات</div>
+            <div>
+                <button style="color: #1CB0F6;"><a href="https://eg-bus.com/" target="_blank">احجز الان</a></button>
 
             </div>
-
-
         </div>
-        <!-- =============== container end =============== -->
-    </section>
-    <br>
-    <!---------important _links----------------->
+    </div>
+
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/west-bus.jpeg">
+                <img src="assets/img/photo-activity/west-bus.jpeg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc"  style="color: blue;font-size: 26px;">دايما معاك
+            </div>
+            <div>
+                <button style="color: #1CB0F6;"><a href="https://west-bus.com/" target="_blank">احجز الان</a></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/east.jpeg">
+                <img src="assets/img/photo-activity/east.jpeg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc" style="color: blue;font-size: 26px;">التميز عنوان
+
+            </div >             <div>
+                <button style="color: #1CB0F6;"><a href="#" target="_blank">احجز الان</a></button>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="clearfix"></div>
+
+    <!-------------------------end of EG BUD AD-------------------->
+
 
     <br><br>
 
