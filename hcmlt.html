@@ -403,6 +403,56 @@
             margin-bottom: 32px;
         }
     </style>
+    <!-------خاص باحجز الان للثلاث شركات----->
+     <style>
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    <!----end---->
 </head>
 
 <body>
@@ -971,7 +1021,7 @@
                     <p>السادة أعضاء مجلس إدارة الشركة القابضة للنقل البحري والبري</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInDown animated" data-wow-delay=".1s">
-                    <div class="timg"><img src="assets/img/mahmoud.hamed.jpeg" /></div>
+                    <div class="timg"><img src="assets/img/mahmoud.png" /></div>
                     <div class="t-box">
                         <h3>لواء أ.ح مهندس/ محمود حامد عرفات </h3>
                         <span> رئيس مجلس الإدارة غير التنفيذي </span>
@@ -1041,52 +1091,55 @@
 -->
     <br><br><br>
     <!--------------------EG BUS AD ---------------------------->
-    <section id="Services" class="">
-        <!-- =============== container =============== -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
 
-                    <div class="col-md-6 wow fadeInLeft animated" data-wow-delay=".5s">
-                        <br><br>
-                        <br><br>
-                        <br><br>
-
-                        <img src="assets/img/header.jpg" / style="width: 150%">
-                    </div>
-
-                    <div class="col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                        <h1 style="color: brown">EG Bus</h1>
-                        <p style="text-align: right;color: blue; font-size: 26px">توفرالشركة أفضل و أحدث الخدمات لراحة
-                            عملائها (WIFI – GPS - شاشات بظهر الكراسي – دورات مياه – ثلاجة – ضيافة )
-
-                            للشركة أكثر من 48 موقع تتنوع ما بين ( فروع – ورش وجراجات– مراكز تشغيل ) على مستوى الجمهورية
-                            وذلك لتخدم أسطول سياراتها الضخم.
-
-                            وتعد الشركة من كبرى شركات نقل الركاب على مستوى جمهورية مصر العربية حيث تغطي خدماتها
-
-                            محافظات الوجه القبلي ، البحر الأحمر ، الوادي الجديد بـالإضافة إلى ربط محافظات شرق الدلتا و
-                            وسط و غرب الدلتا
-
-                            و مدن القناه و سيناء بخطوط منتظمة وذلك عبر خطوطها البالغة 98 خط على مستوى البلاد.</p>
-
-                    </div>
-
-
-                </div>
-            </div>
-
-
-            <div class="container">
-                <button style="font-size: 25px;color: brown " class=" btn btn-primary" role="button"><a
-                        href="https://eg-bus.com/" target="_blank">احجز الان</a></button>
+    <h2 style="text-align: center;"> شركات نقل الركاب</h2>
+    <br><br>
+<div class="companies" style="width:100%; align-items: center;padding-left: 250px;">
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/eg-bus.jpg">
+                <img src="assets/img/photo-activity/eg-bus.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc" style="color: blue;font-size: 26px;">بنقرب المسافات</div>
+            <div>
+                <button style="color: #1CB0F6;"><a href="https://eg-bus.com/" target="_blank">احجز الان</a></button>
 
             </div>
-
-
         </div>
+    </div>
 
-    </section>
+
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/west-bus.jpeg">
+                <img src="assets/img/photo-activity/west-bus.jpeg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc"  style="color: blue;font-size: 26px;">دايما معاك
+            </div>
+            <div>
+                <button style="color: #1CB0F6;"><a href="https://west-bus.com/" target="_blank">احجز الان</a></button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="assets/img/photo-activity/east.jpeg">
+                <img src="assets/img/photo-activity/east.jpeg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc" style="color: blue;font-size: 26px;">التميز عنوان
+
+            </div >             <div>
+                <button style="color: #1CB0F6;"><a href="#" target="_blank">احجز الان</a></button>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="clearfix"></div>
 
     <!-------------------------end of EG BUD AD-------------------->
 
