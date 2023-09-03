@@ -1,4 +1,6 @@
 carousel:
+
+
 html:
 <div class="gallery">
   <img src="https://picsum.photos/id/199/400/300" alt="the beach">
