@@ -1,5 +1,0 @@
-
-user_name:new.hcmlt@new.hcmlt.com
-password:Holding@2020@20
-Host_Name:176.9.100.91
-In Advanced:/home/mftdutyf/public_html/new.hcmlt.com
