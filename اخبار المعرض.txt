@@ -1,0 +1,30 @@
+     <li class="one_third">
+          <article><a href="#"><img src="images/demo/mezory1.jfif" alt=""></a>
+            <h6 class="heading">      توقيع بروتوكول تعاون بين الشركة القابضة للنقل البحرى والبرى وشركة المجموعة المتحدة للتنمية ووزارة النقل بموريتانيا
+              زائرى المعرض </h6>
+
+            <p>                
+                
+              &hellip;</p>
+            <br><br><br><br>
+            <footer class="nospace"><a class="btn"
+                href="=qC1gEa"
+                style="font-weight: bold;">اقرأ
+                المزيد &raquo;</a></footer>
+          </article>
+        </li>
+----------------------------------------------------------
+     <li class="one_third">
+          <article><a href="#"><img src="images/demo/2023-11-05  (2).jpeg" alt=""></a>
+            <h6 class="heading">نيابة عن فخامة الرئيس عبدالفتاح السيسي رئيس الجمهورية
+
+              رئيس الوزراء يفتتح فعاليات المعرض والمؤتمر الدولي للنقل الذكي والبنية التحتية واللوجيستيات للشرق الاوسط وافريقيا TransMEA2023
+            </h6>
+
+            <p>مدبولي يشهد التشغيل التجريبي للمرحلة الثالثة والنهائية من الخط الثالث للمترو ومونوريل شرق النيل وتشغيل مركز السيطرة والتحكم لخط بني سويف / اسيوط من برج المنيا وتشغيل وافتتاح مصنع الفلنكات الخرسانية  
+              &hellip;</p>
+            <footer class="nospace"><a class="btn"
+                href="https://mobile.facebook.com/story.php?story_fbid=pfbid031tM4PiGNyrZjt6tXvP9TWt6zsQgy8gndFcvVS8B6rvygm7385vhJPTSig22UgTFl&id=100068611971858&mibextid=Nif5oz&_rdc=1&_rdr">اقرأ
+                المزيد &raquo;</a></footer>
+          </article>
+        </li>
