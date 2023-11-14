@@ -264,7 +264,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#D55A77;}
 .overlay.light::after{background-color:rgba(233,233,233,.9);/* #E9E9E9 */}
 .overlay.coloured::after{background-color:rgba(213,90,119,.55);/* #D55A77 */}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#D55A77; border-color:#D55A77;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ec832e; border-color:#ec832e;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
