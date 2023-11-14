@@ -252,11 +252,11 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#474747; background-color:#FFFFFF;}
-a{color:#D55A77;}
+a{color:#d59c5a;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#D55A77;}
+input:focus, textarea:focus, *:required:focus{border-color:#d57d5a;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
@@ -264,7 +264,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#D55A77;}
 .overlay.light::after{background-color:rgba(233,233,233,.9);/* #E9E9E9 */}
 .overlay.coloured::after{background-color:rgba(213,90,119,.55);/* #D55A77 */}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#D55A77; border-color:#D55A77;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ee6526; border-color:#d5815a;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
