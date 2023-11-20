@@ -1039,14 +1039,15 @@ blockquote {
 }
 
 #blog .row>h3 {
-    color: #000000;
-    font-size: 20px;
-    font-weight: bold;
+    color: #ffa200e3;
+    font-size: 16px;
+   
 }
 
 #blog .row>p {
-    color: #444444;
+    color:#fff6f6;
     font-size: 14px;
+    
 }
 
 /*----------- contact ------------*/
@@ -1160,7 +1161,7 @@ blockquote {
 
 @media (min-width:768px) and (max-width:1024px) {
     .navbar-default .navbar-nav>li>a {
-        font-size: 18px;
+        font-size: 16px;
         padding: 0px 15px 35px;
     }
 
