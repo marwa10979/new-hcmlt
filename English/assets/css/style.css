@@ -40,14 +40,14 @@ a {
 	position: relative;
 }
 .header {
-   background: rgba(0, 0, 0, 0) url("new banner011.jpg") repeat fixed center 0 / cover  ;
+   background: rgba(0, 0, 0, 0) url("../img/last-banar.jpeg") repeat fixed center 0 / cover  ;
     color: #fff;
     height: 98%;
     overflow: hidden;
     transition: all 0.35s ease 0s;
 }
 .header2 {
-   background: rgba(0, 0, 0, 0) url("new banner011.jpg") repeat fixed center 0 / cover  ;
+   background: rgba(0, 0, 0, 0) url("../img/last-banar.jpeg") repeat fixed center 0 / cover  ;
     color: #fff;
     height: 98%;
     overflow: hidden;
@@ -927,7 +927,7 @@ blockquote {
 }
 #blog .row > p {
     color: #444444;
-    font-size: 14px;
+    font-size: 16px;
 }
 /*----------- contact ------------*/
 #contact
