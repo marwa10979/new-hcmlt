@@ -21,7 +21,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Almarai' ;
     line-height: 1.80857;
 }
 
@@ -51,6 +51,7 @@ h6 {
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
+    font-family:'Almarai';
 }
 
 h1 {
@@ -315,12 +316,12 @@ button:focus{
 }
 .inner-column{}
 .inner-column h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family:'Almarai';
 	font-size: 30px;
-	color: #010101;
+	color: #8f0000;
 }
 .inner-column h1 span{
-	color: #d0a772;
+	color: #dc7f04;
 }
 .inner-column h4{
 	font-size: 16px;
@@ -328,6 +329,8 @@ button:focus{
 }
 .inner-column p{
 	font-size: 18px;
+    font-family:'Almarai';
+    color: #010101;
 }
 .inner-column .btn-outline-new-white{
 	color: #d0a772;
@@ -354,7 +357,7 @@ button:focus{
     font-weight: 300;
     line-height: 44px;
     color: #fff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Almarai';
 	margin-bottom: 20px;
 }
 
@@ -378,7 +381,7 @@ button:focus{
 .heading-title h2{
 	color: #010101;
 	font-size: 28px;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Almarai';
 }
 .heading-title p{
 	font-size: 18px;
