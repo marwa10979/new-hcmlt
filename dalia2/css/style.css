@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    color:black;
     font-size: 15px;
     font-family: 'Almarai' ;
     line-height: 1.80857;
@@ -211,7 +211,7 @@ button:focus{
 	height: 60vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background:transparent;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -227,7 +227,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background:transparent;
 }
 .cover-slides .container{
 	height: 100%;
