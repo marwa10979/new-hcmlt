@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
 @import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet');
+@import url('https://fonts.cdnfonts.com/css/eskindar" rel="stylesheet');
+
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -19,7 +22,11 @@
 -------------------------------------------------------------------*/
 
 body {
+<<<<<<< HEAD
+    color: #0b0909;
+=======
     color:black;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
     font-size: 15px;
     font-family: 'Almarai' ;
     line-height: 1.80857;
@@ -51,10 +58,14 @@ h6 {
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
+<<<<<<< HEAD
+   
+=======
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 
 h1 {
-    font-size: 24px
+    font-size: 28px
 }
 
 h2 {
@@ -320,7 +331,13 @@ button:focus{
 	color: #8f0000;
 }
 .inner-column h1 span{
+<<<<<<< HEAD
+	color: #dc7f04;
+    font-family:'Almarai';
+    font-size:xx-large;
+=======
 	color: #e28204;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 .inner-column h4{
 	font-size: 16px;
@@ -440,7 +457,7 @@ button:focus{
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Arbutus Slab', serif;
+	font-family:'Almarai' ;
 }
 .why-text p{
 	color: #ffffff;
