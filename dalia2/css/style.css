@@ -22,7 +22,11 @@
 -------------------------------------------------------------------*/
 
 body {
+<<<<<<< HEAD
     color: #0b0909;
+=======
+    color:black;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
     font-size: 15px;
     font-family: 'Almarai' ;
     line-height: 1.80857;
@@ -54,7 +58,10 @@ h6 {
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
+<<<<<<< HEAD
    
+=======
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 
 h1 {
@@ -214,7 +221,7 @@ button:focus{
 	height: 60vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background:transparent;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -230,7 +237,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background:transparent;
 }
 .cover-slides .container{
 	height: 100%;
@@ -324,9 +331,13 @@ button:focus{
 	color: #8f0000;
 }
 .inner-column h1 span{
+<<<<<<< HEAD
 	color: #dc7f04;
     font-family:'Almarai';
     font-size:xx-large;
+=======
+	color: #e28204;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 .inner-column h4{
 	font-size: 16px;
