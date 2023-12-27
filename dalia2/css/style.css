@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
 @import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet');
+@import url('https://fonts.cdnfonts.com/css/eskindar" rel="stylesheet');
+
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -19,9 +22,13 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+<<<<<<< HEAD
+    color: #0b0909;
+=======
+    color:black;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
     font-size: 15px;
-    font-family: 'Athiti', sans-serif;
+    font-family: 'Almarai' ;
     line-height: 1.80857;
 }
 
@@ -51,10 +58,14 @@ h6 {
     line-height: 120% !important;
     color: #1f1f1f;
     margin: 0
+<<<<<<< HEAD
+   
+=======
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 
 h1 {
-    font-size: 24px
+    font-size: 28px
 }
 
 h2 {
@@ -210,7 +221,7 @@ button:focus{
 	height: 60vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background:transparent;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -226,7 +237,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background:transparent;
 }
 .cover-slides .container{
 	height: 100%;
@@ -315,12 +326,18 @@ button:focus{
 }
 .inner-column{}
 .inner-column h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family:'Almarai';
 	font-size: 30px;
-	color: #010101;
+	color: #8f0000;
 }
 .inner-column h1 span{
-	color: #d0a772;
+<<<<<<< HEAD
+	color: #dc7f04;
+    font-family:'Almarai';
+    font-size:xx-large;
+=======
+	color: #e28204;
+>>>>>>> a5dc74fdc0c510553efaf5165efa4b6f0fbe9d87
 }
 .inner-column h4{
 	font-size: 16px;
@@ -328,6 +345,8 @@ button:focus{
 }
 .inner-column p{
 	font-size: 18px;
+    font-family:'Almarai';
+    color: #010101;
 }
 .inner-column .btn-outline-new-white{
 	color: #d0a772;
@@ -354,7 +373,7 @@ button:focus{
     font-weight: 300;
     line-height: 44px;
     color: #fff;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Almarai';
 	margin-bottom: 20px;
 }
 
@@ -378,7 +397,7 @@ button:focus{
 .heading-title h2{
 	color: #010101;
 	font-size: 28px;
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Almarai';
 }
 .heading-title p{
 	font-size: 18px;
@@ -438,7 +457,7 @@ button:focus{
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Arbutus Slab', serif;
+	font-family:'Almarai' ;
 }
 .why-text p{
 	color: #ffffff;
