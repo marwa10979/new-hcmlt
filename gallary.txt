@@ -1,0 +1,281 @@
+   <section id="gallary" class="wow flipInX animated" data-wow-delay=".5s" style="background-color: #022e8ad9;">
+        <div class="title">
+            <h2 style="color: #e49102;">معرض الصور</h2>
+            <p style="color:white;font-weight: bolder;">أنشطة الشركات التابعه</p>
+        </div>
+
+        <div class="big-demo go-wide" data-js-module="filtering-demo">
+            <div class="container">
+                <div class="row">
+                    <div style="color: blue;" class="filter-button-group button-group js-radio-button-group"
+                        style="direction: rtl;">
+                        <button class="button is-checked" data-filter="*">الكل</button>
+                        <button class="button" data-filter=".webdesign"> نشاط تداول الحاويات والبضائع والتخزين</button>
+                        <button class="button" data-filter=".ecommerce">الشحن والتفريغ والتوريدات</button>
+                        <button class="button" data-filter=".cms"> نشاط التوكيلات الملاحية</button>
+                        <button class="button" data-filter=".logo">نقل الركاب والبضائع</button>
+                        <button class="button" data-filter=".ecom"> الشركات المشتركة</button>
+
+                        <!----<button class="button" data-filter=".ecommerce"> الشركات المشتركة</button>-->
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid baguetteBoxThree gallery" style="background-color: #022e8ad9;">
+                <!--تداول الحاويات والتخزين-->
+                <div class="element-item transition webdesign " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-5.jpg">-->
+                    <img src="assets/img/gallery/emp-5.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>اسكندرية لتداول الحاويات والبضائع</h2>
+                        <a href="https://alexcont.com/ar" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end ofتداول الحاويات والتخزين-->
+                <!--الشحن والتفريغ والتوريدات-1-->
+                <div class="element-item post-transition ecommerce " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-2.jpg">-->
+                    <img src="assets/img/gallery/emp-2.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2> المصرية للتوريدات والأشغال البحرية</h2>
+                        <a href="https://consupegypt.com/ar/%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9/" target="_blank"> <i
+                                class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of الشحن والتفريغ والتوريدات-1-->
+
+                <!--الشركات المشتركة-->
+                <div class="element-item post-transition ecom " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-2.jpg">-->
+                    <img src="assets/img/gallery/national_navigtion.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2> الملاحة الوطنية</h2>
+                        <a href="https://nnc.com.eg/" target="_blank"><i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of   الشركات المشتركة-->
+                <div class="element-item post-transition webdesign " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-7.jpg">-->
+                    <img src="assets/img/gallery/domiat.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>دمياط لتداول الحاويات</h2>
+                        <a href="http://www.dchc.com.eg/" target="_blank"><i class="fa fa-link link"></i></a>
+                    </div>
+                    </a>
+                </div>
+                <!--الشحن والتفريغ والتوريدات-1-->
+
+                <div class="element-item transition ecommerce " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-10.jpg">	-->
+                    <img src="assets/img/gallery/emp-10.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>السويس للشحن والتفريغ الالى</h2>
+                        <a href="https://suezstev.com/" target="_blank"><i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of الشحن والتفريغ والتوريدات-1-->
+                <!--start ofالشركات المشتركة-->
+                <div class="element-item transition ecom " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-10.jpg">	-->
+                    <img src="assets/img/gallery/gw01.png" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2> الشركة المصرية للمشروعات المتكاملة</h2>
+                        <h2>الترجمان</h2>
+                        <a href="https://gwplaza.com/" target="_blank"><i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of الشركات المشتركة-->
+
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-6.jpg">-->
+                    <img src="assets/img/gallery/emp-6.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>EG BUS</h2>
+                        <a href="https://eg-bus.com" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--  <a href="assets/img/gallery/emp-23.jpg">-->
+                    <img src="assets/img/gallery/emp-23.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>غرب ووسط الدلتا</h2>
+                        <a href="https://west-bus.com/"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-22.jpg">-->
+                    <img src="assets/img/gallery/emp-22.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>شرق الدلتا</h2>
+                        <a href="https://eastdelta-travel.com
+                        " target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-19.jpg">-->
+                    <img src="assets/img/gallery/emp-19.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>اعمال النقل</h2>
+                        <a href="#" target="_blank"><i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item transition cms " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-13.jpg">-->
+                    <img src="assets/img/gallery/emp-13.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>القناة للتوكيلات الملاحية </h2>
+                        <a href="https://canalshipping.net/" target="_blank"><i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!-- الشحن والتفريغ والتوريدات-1-->
+
+                <div class="element-item post-transition ecommerce " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-9.jpg">-->
+                    <img src="assets/img/gallery/emp-9.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>العربية للشحن والتفريغ</h2>
+                        <a href="https://arload.com.eg/" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of الشحن والتفريغ والتوريدات-1-->
+                <!--start of الشركات المشتركة-->
+                <div class="element-item post-transition ecom " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-9.jpg">-->
+                    <img src="assets/img/gallery/martrans.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2> شركة المصرية لأعمال النقل</h2>
+                        <h2> مارترانس</h2>
+
+                        <a href="http://www.martrans-egypt.com/" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <!--end of الشركات المشتركة-->
+
+                <div class="element-item post-transition webdesign " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-11.jpg">-->
+                    <img src="assets/img/gallery/emp-11.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>بورسعيد لتداول الحاويات والبضائع</h2>
+                        <a href="https://www.pscchc.com/index.aspx?pg_lg=ar" target="_blank"><i
+                                class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition webdesign " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-12.jpg">-->
+                    <img src="assets/img/gallery/emp-12.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>المستودعات المصرية العامة</h2>
+                        <a href="http://www.egywarehouses.com/about_us.htm" target="_blank"> <i
+                                class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-20.jpg">-->
+                    <img src="assets/img/gallery/emp-20.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>النقل المباشر</h2>
+                        <a href="https://dtc744.wixsite.com/direct-transport" target="_blank"> <i
+                                class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--  <a href="assets/img/gallery/emp-21.jpg">-->
+                    <img src="assets/img/gallery/emp-21.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>النيل للنقل البرى</h2>
+                        <a href="https://nltcnow.com" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-17.jpg">-->
+                    <img src="assets/img/gallery/emp-17.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>النيل للنقل الثقيل</h2>
+                        <a href="http://www.mpbs.gov.eg/Arabic/Affiliates/ShareholdingCompanies/Pages/ShareholdingCompaniesDetails.aspx?id=136"
+                            target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item post-transition logo " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-16.jpg">-->
+                    <img src="assets/img/gallery/emp-16.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>النيل لنقل البضائع </h2>
+                        <a href="https://nile-naklbadaa.com" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item transition cms " data-category="post-transition">
+                    <!-- <a href="assets/img/gallery/emp-14.jpg">	-->
+                    <img src="assets/img/gallery/emp-14.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>امون للتوكيلات الملاحية</h2>
+                        <a href="http://www.maramon.com.eg/" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item transition cms " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-15.jpg">	-->
+                    <img src="assets/img/gallery/emp-15.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>ممفيس للتوكيلات الملاحية</h2>
+                        <a href="https://memphis-eg.com/" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+                <div class="element-item transition cms " data-category="post-transition">
+                    <!--<a href="assets/img/gallery/emp-24.jpg">	-->
+                    <img src="assets/img/gallery/emp-24.jpg" />
+                    <div style="font-size: 40px" class="hover-img">
+                        <h2>ابوسمبل وطيبه للتوكيلات الملاحية</h2>
+                        <a href="http://www.marsimbel.com/" target="_blank"> <i class="fa fa-link link"></i></a>
+
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section> 

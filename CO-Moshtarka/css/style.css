@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    color: black;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
@@ -210,7 +210,7 @@ button:focus{
 	height: 60vh;
 }
 .slides-navigation a {
-	background: #cfa671;
+	background:transparent;
     position: absolute;
     height: 70px;
     width: 70px;
@@ -226,7 +226,7 @@ button:focus{
 	font-size: 40px;
 }
 .slides-navigation a:hover {
-	background: #010101;
+	background: transparent;
 }
 .cover-slides .container{
 	height: 100%;
@@ -311,7 +311,7 @@ button:focus{
 	padding: 70px 0px;
 }
 .about-section-box .img-fluid{
-	box-shadow: -10px -10px 0px #d0a772;
+	box-shadow: -10px -10px 0px #e08308;
 }
 .inner-column{}
 .inner-column h1{
@@ -320,7 +320,7 @@ button:focus{
 	color: #010101;
 }
 .inner-column h1 span{
-	color: #d0a772;
+	color: #ec8804;
 }
 .inner-column h4{
 	font-size: 16px;

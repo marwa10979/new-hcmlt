@@ -2,4 +2,4 @@
 user_name:hcmlt@hcmlt.com
 password:Holding@2020@20
 Host_Name:41.33.148.241
-In Advanced:/home/mftdutyf/hcmlt.com
+In Advanced:/home/mftdutyf/public_html/new.hcmlt.com

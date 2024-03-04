@@ -13,7 +13,32 @@
     <meta name="description" content="">
     <link rel="icon" href="active-company/images/logo.jpg">
     <meta name="author" content="">
-    <title>الشـركة القابضة للنقل البحري والبري</title>
+    <title>الشـركة القابضة للنقل البـحري والبري</title>
+    <!-------logo-companies-->
+    <link rel="stylesheet" href="logo-company/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mirza&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../templatemo_569_edu_meeting/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../templatemo_569_edu_meeting/assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="../templatemo_569_edu_meeting/assets/css/owl.css">
+    <link rel="stylesheet" href="../templatemo_569_edu_meeting/assets/css/lightbox.css">
+
+    <!------------gallary-------------->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <!-- =============== Bootstrap Core CSS =============== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
@@ -56,12 +81,40 @@
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
+    <!------logo-companies------------------------->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--------------------------------------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/assets-logo/css/style.css">
+    <!-- responsive style -->
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/eskindar" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/alhambra" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="import_link/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="import_link/css/responsive.css" rel="stylesheet" />
+
+    <!----font style-->
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/eskindar');
+
+        @import url('https://fonts.cdnfonts.com/css/alhambra');
+    </style>
+
+    <!----end font style------>
+
 
 
     <style>
@@ -93,8 +146,8 @@
         body {
             direction: rtl;
             color: #f7b00a;
-            font-family: 'Almarai', sans-serif;
-            font-family: 'Tajawal', sans-serif;
+            font-family: 'Almarai';
+
 
 
         }
@@ -198,6 +251,7 @@
             background: #fefefe;
             color: #333;
             border: 1px solid #4a4a4a;
+
         }
 
         .marquee p {
@@ -248,20 +302,263 @@
                 transform: translateX(-100%);
             }
         }
+
+        < !------------popup--> {
+            font-family: sans-serif;
+            background: #dde1e7;
+            min-height: 100vh;
+        }
+
+        .center,
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .click-me {
+            display: block;
+            width: 400px;
+            height: 50px;
+            background: #dde1e7;
+            box-shadow: -3px -3px 7px #fffdfdcc, 3px 3px 5px rgba(241, 208, 132, 0.342);
+            text-align: center;
+            font-size: 22px;
+            font-weight: bolder;
+            line-height: 50px;
+            cursor: pointer;
+            font-size: xx-large;
+
+
+        }
+
+        #click {
+            display: none;
+        }
+
+        .click-me:hover {
+            color: #0a5878;
+        }
+
+        .content {
+            visibility: hidden;
+            width: 330px;
+            height: auto;
+
+            padding: 30px 35px 40px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        #temp {
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            font-size: 25px;
+            background: #dde1e7;
+            padding: 3px;
+            padding-left: 11px;
+            padding-right: 11px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #click:checked~.content {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .text {
+            font-size: 30px;
+            color: #000000;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        label {
+            display: block;
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        input {
+            display: block;
+            height: 43px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.07);
+            border-radius: 3px;
+            border: none;
+
+            margin-top: 8px;
+
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        ::placeholder {
+            color: #4b4e4d;
+            padding-left: 10px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 35px;
+            padding: 12px;
+            background: #dde1e7;
+            border: none;
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+
+        .fa {
+            font: normal;
+            font-size: inherit;
+            text-rendering: auto;
+        }
     </style>
+    <!-------خاص باحجز الان للثلاث شركات----->
+    <style>
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        < !----end---->
+    </style>
+    <!--------------logo-comp-------->
+    <style>
+        .pic-ctn {
+            width: 100vw;
+            height: 100px;
+            background-color: #022e8ad9;
+        }
+
+        @keyframes display {
+            0% {
+                transform: translateX(200px);
+                opacity: 0;
+            }
+
+            10% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            20% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            30% {
+                transform: translateX(-200px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(-200px);
+                opacity: 0;
+            }
+        }
+
+        .pic-ctn {
+            position: relative;
+            width: 100vw;
+            height: 100px;
+            margin-top: 10vh;
+        }
+
+        .pic-ctn>img {
+            position: absolute;
+            top: 0;
+            left: calc(50% - 100px);
+            opacity: 0;
+            animation: display 10s infinite;
+        }
+
+        img:nth-child(2) {
+            animation-delay: 2s;
+        }
+
+        img:nth-child(3) {
+            animation-delay: 4s;
+        }
+
+        img:nth-child(4) {
+            animation-delay: 6s;
+        }
+
+        img:nth-child(5) {
+            animation-delay: 8s;
+        }
+    </style>
+    <!---end-logo-comp---->
 </head>
 
 <body>
+
+
+
     <!-- =============== Preloader =============== -->
     <div id="preloader">
         <div id="loading">
+
             <img width="256" height="32" src="assets/img/loading-cylon-red.svg">
         </div>
     </div>
     <!-- =============== nav =============== -->
 
 
-    <nav style="direction: rtl" id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav style="direction: rtl;font-size: 10px;" id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
 
 
@@ -287,8 +584,8 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
 
-            <div style="direction: rtl" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+            <div style="direction: rtl;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="padding-left: 2px; padding-right: 5px;">
                     <li>
                         <a class="page-scroll" href="English/hcmlt.html" target="_blank">English</a>
 
@@ -299,15 +596,11 @@
 
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/@hcmlt2023" target="_blank"> <img src="assets/img/youtube.gif "
-                                ; height="30px" ; width="30px"></a>
-
-                    </li>
-                    <!--<li>
-                        <a href="#" target="_blank"> <img src="assets/img/twitter.gif " ; height="30px" ;
+                        <a href="#" target="_blank"> <img src="assets/img/youtube.gif " ; height="30px" ;
                                 width="30px"></a>
 
-                    </li>-->
+                    </li>
+
 
                     <li>
                         <a class="page-scroll" href="about%20us.html" target="_blank">اتصل بنا</a>
@@ -317,11 +610,11 @@
 
 
                     <li>
-                        <a class="page-scroll" href="#blog"> الأخبار</a>
+                        <a class="page-scroll" href="#blog"> الأخبـار</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#gallary">معرض الصور</a>
+                        <a class="page-scroll" href="new-gallery/index.html">معرض الصور</a>
                     </li>
 
                     <li>
@@ -329,7 +622,7 @@
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="active-company.html">أنشطة الشركة</a>
+                        <a class="page-scroll" href="active-company.html">أنشطةالشركة</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="data-company.html">عن الشركة</a>
@@ -343,8 +636,6 @@
 
                 </ul>
 
-
-
             </div>
             <!-- =============== navbar-collapse =============== -->
 
@@ -352,10 +643,31 @@
         </div>
         <!-- =============== container-fluid =============== -->
     </nav>
+
     <!-- =============== header =============== -->
 
+    <div class="center">
+        <input type="checkbox" id="click">
+        <!-- <label for="click" class="click-me" style="font-size:24px;"> <a href="http://www.egywarehouses.com/"
+                target="_blank">اعلان لوظيفة بشركةالمستودعات</a> </label>-->
+        <!--<div class="content">
 
-    <!----------------------------------------------------------->
+            <label for="click" id="temp"></label>
+
+            <form>
+
+                <img src="assets/img/EID/new-hegre.jpg">
+                  <video width="520" height="440" controls autoplay muted loop>
+                    <source src="assets/img/EID/happy year3.mp4" type="video/mp4">
+                    <source src="assets/img/EID/happy year3.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+            </form>
+        </div>-->
+    </div>
+    </div>
+
 
     <header id="home" class="header">
         <!-- =============== container =============== -->
@@ -399,25 +711,41 @@
         <div class="container">
             <div class="row">
                 <div class="title">
-                    <h2 style="color:#e49102;"> الأخبـــار</h2>
+                    <h1 style="color:red;"> أحدث الأخبار</h1>
 
                     <div class="">
 
-                        <marquee width="250%" direction="right" height="70px" ; font-size="20px" scrollamount="15">
-                            <p style="color: orange;font-weight: bolder;font-size: larger;"> آخر الأخبار : <span
+
+                        <marquee width="600%" direction="right" height="70px" ; font-size="20px" scrollamount="15">
+                            <p style="color: orange;font-weight: bolder;font-size: larger;"> الأخبار: <span
                                     style="color:blue;font-weight:bold"> &nbsp &nbsp
-                                    <a href="https://www.facebook.com/MinistryTransportation/videos/966149904426624/?extid=CL-UNK-UNK-UNK-AN_GK0T-GK1C&mibextid=OVEsak
-                                    " target="_blank">  وزارة النقل المصرية -جولة الفريق مهندس كامل الوزير - وزير النقل اثناء تفقد الاعمال في تطوير ميناء العريش
-    
+                                    <a href="https://www.facebook.com/100068611971858/posts/695213416109051/?mibextid=xfxF2i
+                                    " target="_blank"> صور لعدد من الشاحنات القادمة عبر الخط العربي للنقل البري والبحري
+                                        إلى ميناء نويبع البحري
+
                                     </a>
+                                    <a href="https://www.facebook.com/groups/121557914570619/permalink/7214614081931598/?mibextid=9R9pXO
+                                    " target="_blank">
+                                        تداول 14 الف طن بضائع عامة ومتنوعة بموانئ البحر الأحمر
+
+                                    </a>
+                                    <a href="https://web.facebook.com/watch/?v=784563740151723
+                                    " target="_blank">
+                                        فيديو صادر عن وزارة النقل خاص باستلام السفينة وادي العريش أحدث سفن الأسطول
+                                        التجاري المصري في اطار تنفيذ توجيهات فخامة الرئيس باستعادة قوة الأسطول التجاري
+                                    </a>
+                                    <a href="https://web.facebook.com/watch/?v=27
+                                    " target="_blank">
+                                        فيديو خاص بالنافذه الواحده لليخوت #وزارة_النقل
+
+                                    </a>
+
+
+
+
+
+
                                 </span>
-                                <a href="https://m.facebook.com/story.php?story_fbid=pfbid02V72KQgRT7VjX72jVBHgU5TeLJEDoYAhvP3WT8Xipy2nf5WYacSKfHzqhGeXsq3GUl&id=100068611971858&mibextid=Nif5oz
-                                " target="_blank">  السيد الرئيس يستقبل رئيس شركة الخطوط الملاحية الفرنسية العالمية ويلتقى رئيس مجموعة ألستوم الفرنسية 
-
-                                </a>
-
-
-
 
                             </p>
                         </marquee> &nbsp
@@ -426,100 +754,121 @@
 
 
 
+
                     <h2 style="color: #e49102;">أهم الأحداث المحلية والدولية </h2>
+                    <a href="transmea2023/index-new.html" style="background-color: transparent;">
+                        <img src="assets/img/TransMEA-logo.png">
+                    </a>
                 </div>
-                <!----->
-                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-                    <div class="blog-img">
-                        <img src="news/images/sisi.jpg" />
-                    </div>
-                    <!--<div class="row">
-                          <div class="data">dd</div>
-                          <div class="month">Month</div>
-                          </div>-->
-                    <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 15 يونيه 2023 </h4>
-                        <h3 style="color: white;"> السيد الرئيس عبد الفتاح السيسي يشهد افتتاح محطة "تحيا مصر" متعددة الأغراض بميناء الأسكندرية
-                            الكبير
-                        </h3>
-                        <p style="color: #e7e8f4;">
-                            السيد الرئيس عبد الفتاح السيسي يشهد افتتاح محطة "تحيا مصر" متعددة الأغراض بميناء الأسكندرية
-                            الكبير، ورفع العلم على سفينة وادي الملوك، أكبر وأحدث سفن الأسطول التجاري المصري، في إطار خطة
-                            مصر للتحول لمركز لوجستي وتجاري عالمي
-                            (نقلا عن صفحة وزارة النقل المصرية)
-                        </p>
-                        <br><br> <br><br> <br><br> <br><br>
-                        <a href="https://web.facebook.com/100068611971858/posts/pfbid0fybkGzQQPgvvtu2dz1a7PF6aAngqCg5SLp4xg9Z1Cb2RSVg76AfnvSNpXY65TWn7l/?mibextid=Nif5oz&_rdc=1&_rdr"
-                            target="_blank">اقرأ المزيد</a>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-                    <div class="blog-img">
-                        <img src="news/images/images .jpg" />
-                    </div>
-                    <!--<div class="row">
-                          <div class="data">dd</div>
-                          <div class="month">Month</div>
-                          </div>-->
-                    <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;">نشر في: 15 يونيه2023 </h4>
-                        <h3 style="color: white;"> كلمة وزير النقل أمام فخامة الرئيس عبد الفتاح السيسي رئيس الجمهورية خلال إفتتاح فخامة الرئيس
-                            محطة "تحيا مصر" متعددة الأغراض بميناء الأسكندرية وعدد من مشروعات النقل البحري والموانئ
-                            البرية والجافة
-                        </h3>
-                        <p style="color: #e7e8f4;"> -رفع العلم المصري على السفينة وادي الملوك
-
-
-                            خلال افتتاح فخامة الرئيس عبد الفتاح السيسي رئيس الجمهورية محطة "تحيا مصر" متعددة الأغراض
-                            بميناء الأسكندرية وعدد من مشروعات النقل البحري والموانئ البرية والجافة
-                            .(نقلا عن صفحة قطاع النقل البحرى)</p>
-                        <br><br><br><br><br>
-                        <a href="https://web.facebook.com/100068611971858/posts/pfbid021VEau2y6A9Lnf9AfA5KkztSEuj6bfvkng1dMBh1QsfJqhe26z7KxcryAjt8dpMAgl/?mibextid=Nif5oz&_rdc=1&_rdr"
-                            target="_blank">اقرأ المزيد</a>
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-                    <div class="blog-img">
-                        <img src="news/images/sisi2 .jpg" />
-                    </div>
-                    <!--<div class="row">
-                          <div class="data">dd</div>
-                          <div class="month">Month</div>
-                          </div>-->
-                    <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 15 يونيه2023 </h4>
-                        <h3 style="color: white;"> السيد الرئيس يستقبل الرئيس التنفيذى لشركة الخطوط الملاحية الفرنسية العالمية عقب افتتاح محطة
-                            تحيا مصر
-                        </h3>
-                        <p style="color: #e7e8f4;">في إطار قيام السيد الرئيس عبد الفتاح السيسي اليوم بحضور افتتاح محطة "تحيا مصر" متعددة الأغراض
-                            بميناء الإسكندرية الكبير، ورفع العلم على سفينة وادي الملوك، أكبر وأحدث سفن الأسطول التجاري
-                            المصري، استقبل سيادته السيد "رودولف سعادة"، الرئيس التنفيذي لشركة الخطوط الملاحية الفرنسية
-                            العالمية "CMA CGM"، وعدداً من كبار المسئولين بالشركة، وذلك بحضور الفريق كامل الوزير، وزير
-                            النقل.
-
-                            .(نقلا
-                            عن صفحة قطاع النقل البحرى)
-                        </p>
-                        <br><br><br><br><br>
-                        <a href="https://web.facebook.com/100068611971858/posts/pfbid02y1d53JbHvHUPyoqns1vZa6a2JCTNFEqryomQX8SeTaCYwYjhLm31eZtcxzAmgW74l/?mibextid=Nif5oz&_rdc=1&_rdr"
-                            target="_blank">اقرأ المزيد</a> &nbsp;&nbsp;
-                    </div>
-                </div>
-
-
 
 
 
 
                 <!----->
+                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                    <div class="blog-img">
+                        <img src="news/images/18-1-20242.jpg" />
+                    </div>
+                    <!--<div class="row">
+                          <div class="data">dd</div>
+                          <div class="month">Month</div>
+                          </div>-->
 
+
+
+                    <div class="row">
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في:18 يناير 2024 </h4>
+                        <h3>
+                            من العاصمة| جولة خاصة في وزراة النقل بالعاصمة<br> الإدارية الجديدة مع خلود زهران
+                        </h3>
+                        <br>
+                        <p>
+                            لمشاهدة الفيديو
+                        </p>
+                        <br><br><br><br><br>
+                        <a href="https://www.youtube.com/watch?v=L-e6wswdWk0
+                            " target="_blank" style="font-weight: bolder;">اقرأ المزيد..</a> &nbsp;&nbsp;
+                    </div>
+
+
+
+                </div>
+
+                <!----->
+
+                <!----->
+
+                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                    <div class="blog-img">
+                        <img src="news/images/22-1-2024public.jpg" />
+                    </div>
+                    <!--<div class="row">
+                                      <div class="data">dd</div>
+                                      <div class="month">Month</div>
+                                      </div>-->
+
+
+                    <div class="row">
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في:22 يناير 2024 </h4>
+                        <h3>
+                            وزير النقل يوقع مع سفير إيطاليا بالقاهرة بحضور وزيري المالية والتجارة والصناعة اتفاقية بين
+                            حكومتي جمهورية مصر العربية وإيطاليا " بشأن النقل الدولي للبضائع بواسطة المركبات البرية
+                            المقطورة باستخدام خدمات الدحرجة RoRo </h3>
+                        <p>
+                            لبدء تشغيل " خط الرورو " خلال النصف الأول من العام الجاري يما يحقق المصالح الإقتصادية لمصر
+                            وايطاليا ويعظم حجم التبادل التجاري المنقول بحراً والشراكة بين الجانبين فى مجال النقل البحري.
+                        </p>
+                        <br>
+                        <a href="https://m.facebook.com/story.php?story_fbid=pfbid033BRrEoThku7SuczsiUPwJf2BFUYEZjDeXzbAdkygDmoXCcv86dDcJhev3pc3Sc2el&id=100068611971858&mibextid=Nif5oz
+                                    " target="_blank" style="font-weight: bolder;">اقرأ المزيد..</a> &nbsp;&nbsp;
+                        <br><br>
+
+                        <br><br>
+
+
+                    </div>
+                </div>
+                <!---------->
+                <!------------>
+                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                    <div class="blog-img">
+                        <img src="news/images/25-1-2024.jpeg" />
+                    </div>
+                    <!--<div class="row">
+      <div class="data">dd</div>
+      <div class="month">Month</div>
+      </div>-->
+
+
+                    <div class="row">
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في:25 يناير 2024 </h4>
+                        <h3> وزير النقل يتابع مع ادارة الجسر العربي للملاحة معدلات نقل البضائع والشاحنات عبر الخط العربي
+                            للنقل البري والبحري الرابط بين مصر والأردن والعراق
+
+
+                        </h3>
+                        <p>
+                            الوزير : اهمية كبيرة للخط في نقل بضائع تجارة الخليج والعراق والأردن الى الدول الأوروبية
+                            والأمريكية مروراً بمصر
+                        </p>
+                        <br><br><br><br>
+
+                        <a href="https://www.facebook.com/100068611971858/posts/695205689443157/ " target="_blank"
+                            style="font-weight: bolder;">اقرأ المزيد..</a> &nbsp;&nbsp;
+                    </div>
+                </div>
+
+                <!----->
             </div>
         </div>
+
+        <div style="text-align: center;" class="d-grid gap-2 col-6 mx-auto">
+            <a href="more-new-ntionl/index-new.html">المزيد من الأخبار..</a>
+
+        </div>
+
         <!--end of نهاية  اهم الاحداث والاخبار الجارية-->
-        <br><br>
+
 
         <!-- =============== startاخبار واحداث الشركة القابضة وشركاتها التابعه =============== -->
         <div class="container">
@@ -529,98 +878,232 @@
                     <h2 style="color:#ffa100;">أخبار وأحداث الشركة القابضة وشركاتها التابعه</h2>
 
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
-                    <div class="blog-img">
-                        <img src="news/images/1111.jpg" />
-                    </div>
-                    <!--<div class="row">
-					  <div class="data">dd</div>
-					  <div class="month">Month</div>
-					  </div>-->
-                    <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 28 مايو 2023 </h4>
-                        <h3 style="color: white;">
-                            لقاء وزير النقل مع العاملين بالشركة المصرية لأعمال النقل البحري (مارترانس) </h3>
-                        <p style="color: #e7e8f4;"> وزارة_النقل-
-                            خلال لقاء وزير النقل مع العاملين بالشركة المصرية لأعمال النقل البحري (مارترانس) </p>
-                        <br><br><br>
-                        <a href="news/news8.html" target="_blank">اقرأ المزيد</a>
 
 
-                    </div>
-                </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
                 <!----->
                 <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
                     <div class="blog-img">
-                        <img src="news/images/11.jpg" />
+                        <img src="news/images/22-1-2024hcmlt/22-1-2024-main.jpeg" />
                     </div>
                     <!--<div class="row">
-					  <div class="data">dd</div>
-					  <div class="month">Month</div>
-					  </div>-->
+                                  <div class="data">dd</div>
+                                  <div class="month">Month</div>
+                                  </div>-->
                     <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 24 مايو 2023 </h4>
-                        <h3 style="color: white;">وفد من الخط الملاحي Hapag-Lloyd يزور شركة دمياط لتداول الحاويات</h3>
-                        <p style="color: #e7e8f4;"> استقبلت شركة دمياط لتداول الحاويات والبضائع يوم الأربعاء الموافق 24-5-2023 وفد من الخط
-                            الملاحي Hapag-Lloyd ممثلا في السيدة / فيديا دامودهاران - رئيس قطاع التعاقدات منطقة جنوب
-                            أوروبا والسيد/ عمر إسماعيل - مدير العمليات في مصر </p>
-                        <br><br>
-                        <a href="news/news9.html" target="_blank">اقرأ المزيد</a>
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 22 يناير 2024
+                        </h4>
+                        <h3>
+                            اجتماع السيد الاستاذ الدكتور/ العضو المنتدب التنفيذى لعرض الهيكل التنظيمى الجديد بالشركة
+                            القابضة للنقل البحرى والبرى
+                        </h3>
+                        <br>
+                        <p>
+                            تم عقد اجتماع اليوم 22/1/2024 بحضورالاستاذ الدكتور / العضو المنتدب التنفيذي وحضور كل من
+                            السادة رؤساء القطاعات ومديرين العموم والادارات لمناقشة الهيكل التنظيمي الجديد بعد اعتماد
+                            معالي السيد الفريق / وزير النقل ووضع تصور ومهام
+                            <br>العمل خلال الفترة المقبلة
+                        </p>
+                        <br>
+                        <a href="22-1-2024hcmlt.html" target="_blank" style="font-weight: bolder;">اقرأ المزيد</a>
                     </div>
                 </div>
                 <!------------------------------------->
+                <!----->
                 <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
                     <div class="blog-img">
-                        <img src="news/images/watania.jpg" />
+                        <img src="news/images/24-1-2024.jpg" />
                     </div>
                     <!--<div class="row">
-					  <div class="data">dd</div>
-					  <div class="month">Month</div>
-					  </div>-->
+          <div class="data">dd</div>
+          <div class="month">Month</div>
+          </div>-->
                     <div class="row">
-                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 17 يونيو2023 </h4>
-                        <h3 style="color: white;">وزير النقل يترأس الجمعية العامةلشركة الملاحة الوطنية</h3>
-                        <p style="color: #e7e8f4;"> أسطول الشركة قادر على تأمين السلع الاستراتيجية للدولة،وهو الغرض الاساسي الذى أنشئت من أجله
-                            الشركة
-
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 24 يناير 2024
+                        </h4>
+                        <h3>
+                            تنفيذاً لتوجيهات معالى السيد الفريق المهندس / كامل الوزير – وزير النقل والدعم المستمر من
+                            الشركة القابضة للنقل البحرى والبرى و وصولاً بمصر لتكون أحد أهم نقاط إرتكاز النقل البحرى في
+                            المنطقة . </h3>
+                        <p>
+                            حاويات دمياط تحقق أعلى رقم تداول سنوى منذ إنشائها عن العام الميلادى2023 (مليون و 969 ألف و
+                            463 حاوية مكافئة)
                         </p>
-
-                        <br><br><br><br>
-
-                        <a
-                            href="https://mobile.facebook.com/story.php?story_fbid=pfbid039T8vWi11CVmTJq5cH7qeGMVBNomtivPmmc7BP5iDrQgV5W6SL6VZLVxVRNg9nJnl&id=100064812882317&mibextid=Nif5oz&_rdc=1&_rdr&refsrc=deprecated">افرأ
+                        <br> <br> <br><br>
+                        <a href="https://www.facebook.com/photo/?fbid=768637361958168&set=a.463118342510073
+                        " target="_blank" style="font-weight:bolder;">اقرأ
                             المزيد</a>
                     </div>
                 </div>
+                <!------------------------------------->
+                <!----->
+                <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                    <div class="blog-img">
+                        <img src="news/images/cairo-26-1-2024/26-1-2024main .jpg" />
+                    </div>
+                    <!--<div class="row">
+              <div class="data">dd</div>
+              <div class="month">Month</div>
+              </div>-->
+                    <div class="row">
+                        <h4 style="text-align: center; color:#e49102; font-weight: bolder;"> نشر في: 26 يناير 2024
+                        </h4>
+                        <h3>
+                            إقامة حفل ثقافى للعاملين بالشركة القابضة للنقل <br>البحرى
+                            والبرى
+                        </h3>
+                        <br>
+                        <p>
+                            في اطار تنفيذ البرنامج الثقافي للعاملين بالشركة القابضه<br> وبحضور الاستاذ الدكتور العضو المنتدب
+                            التنفيذي للشركة القابضة من اجل توطيد العلاقات الانسانيه بين العاملين بالشركه اقيم<br> حفل ثقافي
+                            بمسرح السامر بالعجوزة تضمن الحفل موسيقى عربيه واستعراض للفنون الشعبيه ومسرحيه قصيرة عن
+                            التراث المصري
+                        </p>
+                        <br><br>
+                        <a href="26-1-2024.html
+                        " target="_blank" style="font-weight: bolder;">اقرأ
+                            المزيد</a>
+                    </div>
+                </div>
+                <!------------------------------------->
             </div>
         </div>
-        <!-- =======  endاخبار واحداث الشركة القابضة وشركاتها التابعه ======== -->
-        <Br><Br>
+
         <div style="text-align: center;" class="d-grid gap-2 col-6 mx-auto">
-            <a href="more-new/index-new.html">المزيد من الأخبار..</a>
+            <a href="more-new/index-new.html" style="font-weight: bolder;">المزيد من الأخبار..</a>
 
         </div>
 
+        <!-- =======  endاخبار واحداث الشركة القابضة وشركاتها التابعه ======== -->
+
+
     </section>
+    <div style="text-align: center; background-color: #022e8ad9;" class="d-grid gap-2 col-6 mx-auto">
+        <div class="row">
+
+            <div class="col">
+                <img src="news/images/free-job.png" style="height: 200px; width:500px;">
+            </div>
+            <div class="col">
+                <a href="http://www.egywarehouses.com/"
+                    style="font-weight: bolder;font-size:30px; width: 70px;color:#e49102 ;" target="_blank">اعلان شركة
+                    المستودعات </a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
     <!---------------End news----------------------->
+    <!-- ===============      مكتبة فيديوهاتstart =============== -->
+    <div class="video1" style="background-color: #022e8ad9; height: 100%;">
+        <div class="row">
+            <div class="title">
+
+                <h2 style="color:#e49102; font-size:32px;">مكتبة فيديوهات</h2>
+
+            </div>
+            <!----->
+            <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                <video width="370" height="340" controls style="text-align: center;">
+                    <source src="more-vedio/vedio/Applications-vedio/App-of-principles.mp4" type="video/mp4">
+                    <source src="more-vedio/vedio/Applications-vedio/App-of-principles.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="row" style="text-align: center;">
+
+                    <h3 style="text-align:center">تطبيق بيانات الاصول للشركة <br>
+
+                        <br><br>
+
+                </div>
+            </div>
+            <!------------------------------------->
+
+            <!----->
+            <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                <video width="390" height="340" controls style="text-align: center; padding-right: 30px;">
+                    <source src="more-vedio/vedio/Applications-vedio/app-board.mp4" type="video/mp4">
+                    <source src="more-vedio/vedio/Applications-vedio/app-board.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="row">
+
+                 <h3 style="text-align:center"> تطبيق موضوعات مجالس الادارات
+
+                       
+                        <br>
+
+                        <br><br>
+
+                </div>
+            </div>
+            <!------------------------------------->
+            <!----->
+            <div class="col-xs-12 col-sm-4 col-md-4 wow fadeInUp animated" data-wow-delay=".1s">
+                <video width="420" height="340" controls style="text-align: center;padding-right:60px;">
+                    <source src="more-vedio/vedio/Applications-vedio/Equipment-application.mp4" type="video/mp4">
+                    <source src="more-vedio/vedio/Applications-vedio/Equipment-application.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="row" style="text-align: center;">
+
+                    <h3 style="text-align: center;">
+                    
+                        
+                            تطبيق متابعةالحالةالفنية للمعدات والالات
+                    </h3>
+                
+                    <br>
+
+                    <br><br>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto" style="text-align: center;">
+            <a href="#" style="font-weight: bolder;background-color:white;font-size: 24px; color: #000000;">المزيد من
+                الفيديوهات</a>
+
+        </div>
+    </div>
+
+
+    <!-- =======      end of مكتبة الفيديوهات======== -->
     <!--section-->
     <!--------------------------------------------->
-
     <section class="for-box">
         <div class="container">
-         
+
             <div class="row">
-                <h2 style="text-align: center;"> أنشطة الشركة</h2>
+                <h2 style="text-align: center;font-size:38px;"> أنشطة الشركة</h2>
                 <br><br><br><br>
                 <!--------------------->
-           
+
                 <div class="col-xs-12 col-sm-6 col-md-4 wow rotateInDownLeft animated" data-wow-delay=".2s">
-                   
+
                     <div class="for-box-crecl">
-                        <a href="#"><img src="assets/img/p5.gif" width="100px" height="100px"></a>
+                        <a href="#"><img src="assets/img/newlogo-2024.gif" width="100px" height="100px"></a>
                     </div>
                     <div class="clr2">
                         <BR>
@@ -628,22 +1111,24 @@
                             نشاط <br /> التوكيلات الملاحيه
                         </h2>
                     </div>
-                    <div class="wbox">
-                        <BR><BR> <BR>
-                        <strong><a href="nouran/Canal_Shipping.html">القناة للتوكيلات الملاحية</a> </strong><br>
-                        <strong><a href="dalia2/Amon.html">آمون للتوكيلات الملاحية</a> </strong><br>
-                        <strong><a href="nouran/Memphis.html">ممفيس للتوكيلات الملاحية</a> </strong><br>
-                        <strong><a href="dalia2/Abu-Simbel.html">ابوسمبل وطيبة للتوكيلات الملاحية</a> </strong><br>
-                        <br> <br> <br>
-                        <a href="#" class="clr2-a"><img src="assets/img/download%20(1).jpg" width="50px"
-                                height="50px"></a>
+                    <div class="wbox" style="font-size: 18px;">
+                        <BR>
+                        <strong><a href="nouran/Canal_Shipping.html" target="_blank">القناة للتوكيلات الملاحية</a>
+                        </strong><br>
+                        <strong><a href="dalia2/Amon.html" target="_blank">آمون للتوكيلات الملاحية</a> </strong><br>
+                        <strong><a href="nouran/Memphis.html" target="_blank">ممفيس للتوكيلات الملاحية</a> </strong><br>
+                        <strong><a href="dalia2/Abu-Simbel.html" target="_blank">ابوسمبل وطيبة للتوكيلات الملاحية</a>
+                        </strong><br>
+                        <br> <br><br>
+                        <a href="#" class="clr2-a"><img src="assets/img/download (1).png" width="70px"
+                                height="60px"></a>
                     </div>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 wow rotateInDownRight animated" data-wow-delay=".4s">
                     <div class="for-box-crecl">
-                        <a href="#"><img src="assets/img/p5.gif" width="100px" height="100px"></a>
+                        <a href="#"><img src="assets/img/newlogo-2024.gif" width="100px" height="100px"></a>
                     </div>
                     <div class="clr4">
                         <h2>
@@ -651,22 +1136,23 @@
                             نشاط نقل<br />الركاب / بضائع
                         </h2><br>
                     </div>
-                    <div class="wbox">
-                        <strong><a href="hanan/egy-bus.html">الصعيد للنقل والسياحة Eg Bus</a> </strong><br>
-                        <strong><a href="dalia2/West.html">غرب ووسط الدلتا</a> </strong><br>
-                        <strong><a href="dalia2/East-Delta.html">شرق الدلتا</a> </strong><br>
+                    <div class="wbox" style="font-size: 18px;">
+                        <BR>
+                        <strong><a href="dalia2/egy-bus.html" target="_blank">الصعيد للنقل والسياحة Eg Bus</a>
+                        </strong><br>
+                        <strong><a href="dalia2/West.html" target="_blank">غرب ووسط الدلتا</a> </strong><br>
+                        <strong><a href="dalia2/East-Delta.html" target="_blank">شرق الدلتا</a> </strong><br>
 
 
-                        <strong><a href="nouran/Transport-Work.html">أعمال النقل</a> </strong><br>
-                        <strong><a href="dalia2/nile_mobashr.html">النقل المباشر</a> </strong><br>
-                        <strong><a href="dalia2/Nile_Land_Transportation.html">النيل للنقل البري</a> </strong><br>
-                        <strong><a href="nouran/Nile_Heavy.html">النيل للنقل الثقيل</a> </strong><br>
-                        <strong><a href="dalia2/nilegoods.html">النيل لنقل البضائع</a> </strong><br>
+                        <strong><a href="dalia2/Transportation works.html" target="_blank">شركة أعمال النقل </a>
+                        </strong><br>
 
 
-                        <BR><BR>
-                        <a href="#" class="clr4-a"><img src="assets/img/download%20(1).jpg" width="50px"
-                                height="50px"></a>
+                        <BR><BR><br>
+
+
+                        <a href="#" class="clr4-a"><img src="assets/img/download (1).png" width="70px"
+                                height="60px"></a>
 
                     </div>
 
@@ -674,7 +1160,7 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-4 wow rotateInDownRight animated" data-wow-delay=".3s">
                     <div class="for-box-crecl">
-                        <a href="#"><img src="assets/img/p5.gif" width="100px" height="100px"></a>
+                        <a href="#"><img src="assets/img/newlogo-2024.gif" width="100px" height="100px"></a>
                     </div>
 
                     <div class="clr3">
@@ -682,27 +1168,32 @@
                         <h2><br>
                             نشاط تداول<br /> الحاويات والبضائع والتخزين
 
-                        </h2>
+                        </h2><br>
                     </div>
-                    <div class="wbox">
-                        <br><br>
-                        <strong><a href="dalia2/Alexandria.html">شركة الاسكندرية لتداول الحاويات والبضائع</a>
+                    <div class="wbox" style="font-size: 18px;">
+                        <br>
+                        <strong style="font-size: 17px;"><a href="dalia2/Alexandria.html" target="_blank">شركة
+                                الاسكندرية لتداول الحاويات
+                                والبضائع</a>
                         </strong><br>
-                        <strong><a href="nouran/domiat.html">شركة دمياط لتداول الحاويات والبضائع</a> </strong><br>
-                        <strong><a href="dalia2/Port-Said.html">شركة بورسعيد لتداول الحاويات والبضائع</a> </strong><br>
-                        <strong><a href="dalia2/General_Egyptian_Warehouse.html">شركة المستودعات المصرية العامة</a>
+                        <strong><a href="nouran/domiat.html" target="_blank">شركة دمياط لتداول الحاويات والبضائع</a>
+                        </strong><br>
+                        <strong><a href="dalia2/Port-Said.html" target="_blank">شركة بورسعيد لتداول الحاويات
+                                والبضائع</a> </strong><br>
+                        <strong><a href="dalia2/General_Egyptian_Warehouse.html" target="_blank">شركة المستودعات المصرية
+                                العامة</a>
                         </strong><br><br><br>
 
                         <br>
-                        <a href="#" class="clr3-a"><img src="assets/img/download%20(1).jpg" width="50px"
-                                height="50px"></a>
+                        <a href="#" class="clr3-a"><img src="assets/img/download (1).png" width="70px"
+                                height="60px"></a>
                     </div>
 
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-6 wow rotateInDownLeft animated" data-wow-delay=".1s">
                     <div class="for-box-crec5">
-                        <a href="#"><img src="assets/img/p5.gif" width="100px" height="100px"></a>
+                        <a href="#"><img src="assets/img/newlogo-2024.gif" width="100px" height="100px"></a>
                     </div>
                     <div class="clr5">
                         <BR>
@@ -710,19 +1201,51 @@
                             نشاط <br /> الشركات المشتركة
                         </h2>
                     </div>
-                    <div class="wbox">
+                    <div class="wbox" style="font-size: 18px;">
                         <BR><BR> <BR>
-                        <strong><a href="CO-Moshtarka/National navigation.html" target="_blank">شركة الملاحة الوطنية
+                        <strong><a href="CO-Moshtarka/National-navigation.html" target="_blank">شركة الملاحة الوطنية
                             </a> </strong><br>
                         <strong><a href="CO-Moshtarka/Martrans.html" target="_blank">شركة المصرية لأعمال النقل -
                                 مارترانس </a> </strong><br>
                         <strong><a href="CO-Moshtarka/Torgoman.html" target="_blank">الشركة المصرية للمشروعات المتكاملة
                                 - ترجمان جروب </a>
                         </strong><br>
-
+                        <strong><a href="CO-Moshtarka/gargop.html" target="_blank">شركة ميناء جرجوب البحرى
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/bernes.html" target="_blank">شركة محطة ميناء برنيس البحرى متعددة
+                                الاغراض
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/egypt-group.html" target="_blank">المجموعة المصرية للمحطات متعددة
+                                الاغراض
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/arab-bridge.html" target="_blank"> شركة الجسر العربى للملاحة
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/ban-arab.html" target="_blank">الشركة العربية للملاحة البحرية (
+                                بان أراب)-(تحت التصفية)
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/egyption- shipping.html" target="_blank">الشركة المصرية للملاحة
+                                البحرية(تحت التصفية)
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/petrol-transport.html" target="_blank">الشركه العربية البحرية لنقل
+                                البترول
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/south-valley.html" target="_blank">شركه جنوب الوادى
+                            </a>
+                        </strong><br>
+                        <strong><a href="CO-Moshtarka/finance&investment.html" target="_blank"> شركه صندوق مصر للتمويل
+                                والاستثمار
+                            </a>
+                        </strong><br>
                         <BR><BR><br>
-                        <a href="#" class="clr5-a"><img src="assets/img/download%20(1).jpg" width="50px"
-                                height="50px"></a>
+                        <a href="#" class="clr5-a"><img src="assets/img/download (1).png" width="70px"
+                                height="60px"></a>
                     </div>
 
                 </div>
@@ -730,7 +1253,7 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-6 wow rotateInDownLeft animated" data-wow-delay=".1s">
                     <div class="for-box-crecl">
-                        <a href="#"><img src="assets/img/p5.gif" width="100px" height="100px"></a>
+                        <a href="#"><img src="assets/img/newlogo-2024.gif" width="100px" height="100px"></a>
                     </div>
                     <div class="clr1">
                         <BR>
@@ -738,16 +1261,18 @@
                             نشاط الشحن <br /> والتفريغ والتوريدات والأشغال البحرية
                         </h2>
                     </div>
-                    <div class="wbox">
+                    <div class="wbox" style="font-size:20px;">
                         <BR><BR> <BR>
-                        <strong><a href="hanan/suiz.html">السويس للشحن والتفريغ الالي</a> </strong><br>
-                        <strong><a href="dalia2/United-Arab.html">العربية للشحن والتفريغ الالي</a> </strong><br>
-                        <strong><a href="nouran/Egyption_Marine.html">المصرية للتوريدات والأشغال البحرية</a>
+                        <strong><a href="hanan/suiz.html" target="_blank">السويس للشحن والتفريغ الالي</a> </strong><br>
+                        <strong><a href="dalia2/United-Arab.html" target="_blank">العربية للشحن والتفريغ الالي</a>
+                        </strong><br>
+                        <strong><a href="nouran/Egyption_Marine.html" target="_blank">المصرية للتوريدات والأشغال
+                                البحرية</a>
                         </strong><br>
 
-                        <BR><BR><br>
-                        <a href="#" class="clr1-a"><img src="assets/img/download%20(1).jpg" width="50px"
-                                height="50px"></a>
+                        <BR><BR><br> <BR><BR><br><BR><br><br><BR>
+                        <a href="#" class="clr1-a"><img src="assets/img/download (1).png" width="70px"
+                                height="60px"></a>
                     </div>
 
                 </div>
@@ -757,33 +1282,91 @@
 
             </div>
         </div>
+        <div class="py-3">
+            <div class="container">
+
+                <div class="owl-logos owl-carousel">
+                    <div class="item">
+                        <img src="assets/img/00000.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo-google.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
+                    </div>
+                    <div class="item">
+                        <img src="images/logo-google.png" alt="Image" class="img-fluid">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!--------------------------------------------->
     </section>
     <!----------------------------End Activeties-------------------->
+    <!---------logo-comp---------->
+    <!--<marquee width="200%" direction="right" height="100px" ; font-size="20px" scrollamount="10">
+        <p style="background-color: transparent;">  <span
+                > &nbsp &nbsp
+                <a href="https://web.facebook.com/watch/?v=784563740151723
+                " target="_blank">
+                <img src="assets/img/cologos/لوجو القابضة.jpg" style="width: 100px; height:100px;">
+                </a> </span>
+            <br>
+                <a href="https://web.facebook.com/watch/?v=784563740151723
+                " target="_blank">
+                <img src="assets/img/cologos/_mmfis.jpg" style="width: 100px; height:100px;">
+                </a>
+                <br>
+                <a href="https://web.facebook.com/watch/?v=784563740151723
+                " target="_blank">
+                <img src="assets/img/cologos/arab.png" style="width: 100px; height:100px;">
+                </a>
+                <br>
+                <a href="https://web.facebook.com/watch/?v=784563740151723
+                " target="_blank">
+                <img src="assets/img/cologos/canal.jpg" style="width: 100px; height:100px;">
+                </a>
+                <br>
+                <a href="https://web.facebook.com/watch/?v=784563740151723
+                " target="_blank">
+                <img src="assets/img/cologos/abo_sembel.jpg" style="width: 100px; height:100px;">
+                </a>
 
+
+
+
+
+           
+
+        </p>
+    </marquee> &nbsp-->
+
+    <!----------------end-logo----------->
     <section id="team" class="">
 
         <div style="align-content: center;" class="container">
             <div class="row">
                 <div class="title">
-                    <h2 style="color: #e49102;">مجلس الإدارة</h2>
-                    <p>السادة أعضاء مجلس إدارة الشركة القابضة للنقل البحري والبري</p>
+                    <h2 style="color: #e49102; font-size: 38px;">مجلس الإدارة</h2>
+                    <p style="font-size: 30px;">السادة أعضاء مجلس إدارة الشركة القابضة للنقل البحري والبري</p>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInDown animated" data-wow-delay=".1s">
-                    <div class="timg"><img src="assets/img/01.png" /></div>
+                    <div class="timg"><img src="assets/img/board-hcmlt/mahmoud-arafat.png" /></div>
                     <div class="t-box">
-                        <h3>اللواء بحري أ.ح/محمد طارق عباس السيد</h3>
-                        <span>العضو المنتدب للنقل البحري </span>
-                        <!--<ul class="social-links">
-						<li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
-						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-twitter"></i></a></li>
-						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-google-plus"></i></a></li>
-					</ul>-->
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".2s">
-                    <div class="timg"><img src="assets/img/001.png" /></div>
-                    <div class="t-box">
-                        <h3>الأستاذ الدكتور / عمرو أحمد مصطفى</h3>
+                        <h3>لواء أ.ح مهندس/ محمود حامد عرفات </h3>
                         <span> رئيس مجلس الإدارة غير التنفيذي </span>
                         <!--<ul class="social-links">
 						<li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
@@ -792,10 +1375,22 @@
 					</ul>-->
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".2s">
-                    <div class="timg"><img src="assets/img/003.jpg" /></div>
+                <div class="col-xs-12 col-sm-2 col-md-2 wow fadeInUp animated" data-wow-delay=".2s">
+                    <div class="timg"></div>
                     <div class="t-box">
-                        <h3>اللواء أ.ح/ عبد المطلب المتولي خضر</h3>
+                        <h3></h3>
+                        <span> </span>
+                        <!--<ul class="social-links">
+						<li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
+						<li><a data-wow-delay=".1s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-twitter"></i></a></li>
+						<li><a data-wow-delay=".2s" class="wow fadeInUp animated" href="index.html#"><i class="fa fa-google-plus"></i></a></li>
+					</ul>-->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp animated" data-wow-delay=".2s">
+                    <div class="timg"><img src="assets/img/board-hcmlt/amr-mostafa.png" /></div>
+                    <div class="t-box">
+                        <h3>الاستاذ الدكتور/عمرو أحمد مصطفى</h3>
                         <span>العضو المنتدب التنفيذي </span>
                         <!--<ul class="social-links">
 						<li><a class="wow fadeInUp animated" href="index.html#"><i class="fa fa-facebook"></i></a></li>
@@ -808,502 +1403,350 @@
 
             </div>
 
-            <div class="title" >
-                <h2 ><a href="Board.html" style="color: #e49102;">أعضاء مجلس الإدارة</a></h2>
+            <div class="title">
+                <h2><a href="Board.html" style="color: #e49102;" target="_blank">أعضاء مجلس الإدارة</a></h2>
+                <h2><a href="Board-copy.html" style="color: #e49102;" target="_blank"> رؤساء مجالس إدارات الشركات
+                        التابعة</a></h2>
+
 
             </div>
         </div>
     </section>
-
+    <br> <br><br><br>
     <!-- =============== end section board =============== -->
-    <!-- =============== Services =============== -->
-
-    <!-- =============== for box =============== -->
-
-    <!-- =============== Counter =============== -->
 
 
-    <!-- =============== Gallery =============== -->
-    <section id="gallary" class="wow flipInX animated" data-wow-delay=".5s" style="background-color: #022e8ad9;">
+
+    <!-- =============== Gallery
+    <section id="gallary" class="wow flipInX animated" data-wow-delay=".5s"
+        style="background-image:url(assets/img/new\ banner.png);height: 400px;background-repeat: no-repeat;background-size: cover;">
+        <br><br><br>      <br><br><br>
         <div class="title">
-            <h2 style="color: #e49102;">معرض الصور</h2>
-            <p style="color:white;font-weight: bolder;">أنشطة الشركات التابعه</p>
+          <h1><a href="new-gallery/index.html" style="color:blue;" >معرض الصور</a></h1>
+         
+            <p style="color:blue;font-weight: bolder;font-size:x-large;">أنشطة الشركات التابعه</p>
         </div>
 
-        <div class="big-demo go-wide" data-js-module="filtering-demo">
-            <div class="container">
-                <div class="row">
-                    <div style="color: blue;" class="filter-button-group button-group js-radio-button-group"
-                        style="direction: rtl;">
-                        <button class="button is-checked" data-filter="*">الكل</button>
-                        <button class="button" data-filter=".webdesign"> نشاط تداول الحاويات والبضائع والتخزين</button>
-                        <button class="button" data-filter=".ecommerce">الشحن والتفريغ والتوريدات</button>
-                        <button class="button" data-filter=".cms"> نشاط التوكيلات الملاحية</button>
-                        <button class="button" data-filter=".logo">نقل الركاب والبضائع</button>
-                        <button class="button" data-filter=".ecom"> الشركات المشتركة</button>
-
-                        <!----<button class="button" data-filter=".ecommerce"> الشركات المشتركة</button>-->
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="grid baguetteBoxThree gallery" style="background-color: #022e8ad9;">
-                <!--تداول الحاويات والتخزين-->
-                <div class="element-item transition webdesign " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-5.jpg">-->
-                    <img src="assets/img/gallery/emp-5.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>اسكندرية لتداول الحاويات والبضائع</h2>
-                        <a href="https://alexcont.com/ar" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end ofتداول الحاويات والتخزين-->
-                <!--الشحن والتفريغ والتوريدات-1-->
-                <div class="element-item post-transition ecommerce " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-2.jpg">-->
-                    <img src="assets/img/gallery/emp-2.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2> المصرية للتوريدات والأشغال البحرية</h2>
-                        <a href="https://consupegypt.com/ar/%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9/" target="_blank"> <i
-                                class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of الشحن والتفريغ والتوريدات-1-->
-
-                <!--الشركات المشتركة-->
-                <div class="element-item post-transition ecom " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-2.jpg">-->
-                    <img src="assets/img/gallery/national_navigtion.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2> الملاحة الوطنية</h2>
-                        <a href="https://nnc.com.eg/" target="_blank"><i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of   الشركات المشتركة-->
-                <div class="element-item post-transition webdesign " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-7.jpg">-->
-                    <img src="assets/img/gallery/domiat.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>دمياط لتداول الحاويات</h2>
-                        <a href="http://www.dchc.com.eg/" target="_blank"><i class="fa fa-link link"></i></a>
-                    </div>
-                    </a>
-                </div>
-                <!--الشحن والتفريغ والتوريدات-1-->
-
-                <div class="element-item transition ecommerce " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-10.jpg">	-->
-                    <img src="assets/img/gallery/emp-10.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>السويس للشحن والتفريغ الالى</h2>
-                        <a href="https://suezstev.com/" target="_blank"><i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of الشحن والتفريغ والتوريدات-1-->
-                <!--start ofالشركات المشتركة-->
-                <div class="element-item transition ecom " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-10.jpg">	-->
-                    <img src="assets/img/gallery/gw01.png" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2> الشركة المصرية للمشروعات المتكاملة</h2>
-                        <h2>الترجمان</h2>
-                        <a href="https://gwplaza.com/" target="_blank"><i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of الشركات المشتركة-->
-
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-6.jpg">-->
-                    <img src="assets/img/gallery/emp-6.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>EG BUS</h2>
-                        <a href="https://eg-bus.com" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--  <a href="assets/img/gallery/emp-23.jpg">-->
-                    <img src="assets/img/gallery/emp-23.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>غرب ووسط الدلتا</h2>
-                        <a href="https://west-bus.com/"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-22.jpg">-->
-                    <img src="assets/img/gallery/emp-22.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>شرق الدلتا</h2>
-                        <a href="https://eastdelta-travel.com
-                        " target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-19.jpg">-->
-                    <img src="assets/img/gallery/emp-19.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>اعمال النقل</h2>
-                        <a href="#" target="_blank"><i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item transition cms " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-13.jpg">-->
-                    <img src="assets/img/gallery/emp-13.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>القناة للتوكيلات الملاحية </h2>
-                        <a href="https://canalshipping.net/" target="_blank"><i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!-- الشحن والتفريغ والتوريدات-1-->
-
-                <div class="element-item post-transition ecommerce " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-9.jpg">-->
-                    <img src="assets/img/gallery/emp-9.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>العربية للشحن والتفريغ</h2>
-                        <a href="https://arload.com.eg/" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of الشحن والتفريغ والتوريدات-1-->
-                <!--start of الشركات المشتركة-->
-                <div class="element-item post-transition ecom " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-9.jpg">-->
-                    <img src="assets/img/gallery/martrans.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2> شركة المصرية لأعمال النقل</h2>
-                        <h2> مارترانس</h2>
-
-                        <a href="http://www.martrans-egypt.com/" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <!--end of الشركات المشتركة-->
-
-                <div class="element-item post-transition webdesign " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-11.jpg">-->
-                    <img src="assets/img/gallery/emp-11.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>بورسعيد لتداول الحاويات والبضائع</h2>
-                        <a href="https://www.pscchc.com/index.aspx?pg_lg=ar" target="_blank"><i
-                                class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition webdesign " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-12.jpg">-->
-                    <img src="assets/img/gallery/emp-12.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>المستودعات المصرية العامة</h2>
-                        <a href="http://www.egywarehouses.com/about_us.htm" target="_blank"> <i
-                                class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-20.jpg">-->
-                    <img src="assets/img/gallery/emp-20.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>النقل المباشر</h2>
-                        <a href="https://dtc744.wixsite.com/direct-transport" target="_blank"> <i
-                                class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--  <a href="assets/img/gallery/emp-21.jpg">-->
-                    <img src="assets/img/gallery/emp-21.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>النيل للنقل البرى</h2>
-                        <a href="https://nltcnow.com" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-17.jpg">-->
-                    <img src="assets/img/gallery/emp-17.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>النيل للنقل الثقيل</h2>
-                        <a href="http://www.mpbs.gov.eg/Arabic/Affiliates/ShareholdingCompanies/Pages/ShareholdingCompaniesDetails.aspx?id=136"
-                            target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item post-transition logo " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-16.jpg">-->
-                    <img src="assets/img/gallery/emp-16.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>النيل لنقل البضائع </h2>
-                        <a href="https://nile-naklbadaa.com" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item transition cms " data-category="post-transition">
-                    <!-- <a href="assets/img/gallery/emp-14.jpg">	-->
-                    <img src="assets/img/gallery/emp-14.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>امون للتوكيلات الملاحية</h2>
-                        <a href="http://www.maramon.com.eg/" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item transition cms " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-15.jpg">	-->
-                    <img src="assets/img/gallery/emp-15.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>ممفيس للتوكيلات الملاحية</h2>
-                        <a href="https://memphis-eg.com/" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-                <div class="element-item transition cms " data-category="post-transition">
-                    <!--<a href="assets/img/gallery/emp-24.jpg">	-->
-                    <img src="assets/img/gallery/emp-24.jpg" />
-                    <div style="font-size: 40px" class="hover-img">
-                        <h2>ابوسمبل وطيبه للتوكيلات الملاحية</h2>
-                        <a href="http://www.marsimbel.com/" target="_blank"> <i class="fa fa-link link"></i></a>
-
-                    </div>
-                    </a>
-                </div>
-
-            </div>
-
-
-        </div>
 
 
     </section>
-
-
+-->
+    <br><br><br>
     <!--------------------EG BUS AD ---------------------------->
-    <section id="Services" class="">
-        <!-- =============== container =============== -->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
 
-                    <div class="col-md-6 wow fadeInLeft animated" data-wow-delay=".5s">
-                        <br><br>
-                        <br><br>
-                        <br><br>
-
-                        <img src="assets/img/header.jpg" / style="width: 150%">
-                    </div>
-
-                    <div class="col-md-6 wow fadeInRight animated" data-wow-delay=".5s">
-                        <h1 style="color: brown">EG Bus</h1>
-                        <p style="text-align: right;color: blue; font-size: 26px">توفرالشركة أفضل و أحدث الخدمات لراحة
-                            عملائها (WIFI – GPS - شاشات بظهر الكراسي – دورات مياه – ثلاجة – ضيافة )
-
-                            للشركة أكثر من 48 موقع تتنوع ما بين ( فروع – ورش وجراجات– مراكز تشغيل ) على مستوى الجمهورية
-                            وذلك لتخدم أسطول سياراتها الضخم.
-
-                            وتعد الشركة من كبرى شركات نقل الركاب على مستوى جمهورية مصر العربية حيث تغطي خدماتها
-
-                            محافظات الوجه القبلي ، البحر الأحمر ، الوادي الجديد بـالإضافة إلى ربط محافظات شرق الدلتا و
-                            وسط و غرب الدلتا
-
-                            و مدن القناه و سيناء بخطوط منتظمة وذلك عبر خطوطها البالغة 98 خط على مستوى البلاد.</p>
-
-                    </div>
-
+    <h2 style="text-align: center; font-size: 36px;"> شركات نقل الركاب</h2>
+    <br><br>
+    <div class="companies" style="width:100%; align-items: center;padding-left: 250px;">
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="assets/img/photo-activity/eg-bus.jpg">
+                    <img src="assets/img/photo-activity/eg-bus.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc" style="color: blue;font-size: 26px;">بنقرب المسافات</div>
+                <div>
+                    <button style="color: #1CB0F6;"><a href="https://eg-bus.com/" target="_blank">احجز الان</a></button>
 
                 </div>
             </div>
-
-
-            <div class="container">
-                <button style="font-size: 25px;color: brown " class=" btn btn-primary" role="button"><a
-                        href="https://eg-bus.com/" target="_blank">احجز الان</a></button>
-
-            </div>
-
-
         </div>
 
-    </section>
+
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="assets/img/photo-activity/west-bus.jpeg">
+                    <img src="assets/img/photo-activity/west-bus.jpeg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc" style="color: blue;font-size: 26px;">دايما معاك
+                </div>
+                <div>
+                    <button style="color: #1CB0F6;"><a href="https://west-bus.com/" target="_blank">احجز
+                            الان</a></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="assets/img/photo-activity/east.jpeg">
+                    <img src="assets/img/photo-activity/east.jpeg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc" style="color: blue;font-size: 26px;">التميز عنوان
+
+                </div>
+                <div>
+                    <button style="color: #1CB0F6;"><a href="#" target="_blank">احجز الان</a></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
 
     <!-------------------------end of EG BUD AD-------------------->
 
     <br>
-    <!---------important _links----------------->
-    <section class="animal_section layout_padding">
-        <div style="color: beige;text-align: center;">
-            <h2 style="color: #e49102;;">روابط هامة</h2>
-        </div>
+
+
+
+    <div class="container-fluid video-player">
         <div class="container">
-            <div class="animal_container">
-                <!--link4-->
 
 
-                <br>
-                <div class="box b1">
-                    <div class="img-box">
-                        <img src="import_link/images/maxresdefault.png" alt="">
+            <div class="play-list">
+                <div class="owl-carousel owl-carousel4 owl-theme">
+                    <div>
+                        <div class="card"> <img class="card-img link-img" data-link="#"
+                                src="assets-logo/images/alex.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://www.customs.gov.eg/" target="_blank"> هيئة الجمارك المصرية</a> </h5>
+                    <div>
+                        <div class="card"> <img class="card-img link-img" data-link="#"
+                                src="assets-logo/images/arab.png" alt="">
 
-
+                        </div>
                     </div>
-                </div>
-                <!--link3-->
+                    <div>
+                        <div class="card"> <img class="card-img link-img" data-link="#"
+                                src="assets-logo/images/east.png" alt="">
 
-                <div class="box b2">
-                    <div class="img-box">
-                        <img src="import_link/images/eg_num.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="detail-box">
-                        <h5> <a href="   https://digital.gov.eg/" target="_blank"> بوابة مصر الرقمية
-                            </a> </h5>
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="https://www.youtube.com/embed/yHk_sypSiXU" src="assets-logo/images/play4.png"
+                                alt="">
 
-
+                        </div>
                     </div>
-                </div>
-                <!--link2-->
+                    <div>
+                        <div class="card"> <img class="card-img link-img"
+                                data-link="https://www.youtube.com/embed/7yoqm-kgKEk" src="assets-logo/images/play5.png"
+                                alt="">
 
-                <div class="box b1">
-                    <div class="img-box">
-                        <img src="import_link/images/invest.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://www.investinegypt.gov.eg/Arabic/Pages/default.aspx" target="_blank">
-                                الهيئه العامة للأستثمار والمناطق الحرة </a> </h5>
-
-
+                        </div>
                     </div>
                 </div>
-                <!--link1-->
-
-                <div class="box b2">
-                    <div class="img-box">
-                        <img src="import_link/images/transport.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://mot.gov.eg/#/Home" target="_blank"> وزارة النقل </a> </h5>
+            </div>
 
 
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-------------------------------------->
+
+    <footer class="text-center text-lg-start text-white"
+        style="background-color:#022e8ad9; direction: rtl;width:100%; height:900px; ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-2 mb- mb-md-1">
+                        <h5 class="text-uppercase" style="color:white;font-size: 20px;text-decoration: underline;">
+                            معلومات التواصل</h5>
+                        <br>
+
+                        <ul class="list-unstyled mb-0">
+
+                            <li>
+
+                                <p class="text-white" style="color: #e49102;font-size: 14px;"><img
+                                        src="assets/img/pin.png" height="20px" width="20px"><a
+                                        href="https://goo.gl/maps/UGaKRRwSMBb3HrkM9" target="_blank"> مقر
+                                        الشركة:الإسكندرية-71 طريق حرية
+                                    </a>
+                                </p>
+
+                            </li>
+                            <li>
+                                <p class="text-white" style="color: #e49102;">تليفون:4965275 – 4965273 203</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p class="text-white"><img src="assets/img/pin.png" height="20px" width="20px"><a
+                                        href="https://goo.gl/maps/Qo9zGtvLx8Xc1hq9A " target="_blank">
+                                        مقر الشركة :القاهرة-19ش المعهد
+                                        الاشتراكى -روكسي</a></p>
+                            </li>
+
+                            <br>
+                            <li>
+                                <p class="text-white" style="color: #e49102;"> تليفون: 22586137-22586138 – 22586139
+                                    – 22586140 202+</p>
+                            </li>
+                            <li>
+                                <p class="text-white" style="color: #e49102;">البريد الالكترونى: holding@hcmlt.com
+                                </p>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="box b1">
-                    <div class="img-box">
-                        <img src="import_link/images/egy_extg.png" alt="">
+                    <!--col-lg-2 col-md-6 mb-4 mb-md-0-->
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-2 mb-2 mb-md-1">
+                        <h5 class="text-uppercase" style="color:white;font-size: 20px; text-decoration: underline;">
+                            روابط هامه</h5>
+                        <br>
+                        <ul class="list-unstyled mb-0" style="text-align: right;">
+                            <li>
+                                <a href="https://mot.gov.eg/#/Home" class="text-white"
+                                    style="color: #e49102;font-size: 18px;" target="_blank"> * وزارة
+                                    النقل</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mts.gov.eg/ar/" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank"> * قطاع
+                                    النقل البحري</a>
+                            </li>
+                            <li>
+                                <a href="https://www.egx.com.eg/ar/homepage.aspx" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank"> * البورصه
+                                    المصرية</a>
+                            </li>
+                            <li>
+                                <a href="https://www.customs.gov.eg/" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * هيئة الجمارك المصرية
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://mof.gov.eg/ar" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * وزارة المالية المصرية
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.mti.gov.eg/Arabic/Pages/default.aspx" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * وزارة التجارة والصناعة
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://digital.gov.eg/" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * بوابة مصر الرقمية
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://mof.gov.eg/ar" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * وزارة المالبة المصرية
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.investinegypt.gov.eg/Arabic/Pages/default.aspx" class="text-white"
+                                    style="color: #e49102;font-size: 16px;" target="_blank">
+                                    * الهيئة العامة للأستثمار والمناطق الحرة
+
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://www.egx.com.eg/ar/homepage.aspx" target="_blank"> البورصة المصرية </a>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase" style="color:white;font-size: 20px;text-decoration: underline;">
+                            روابط تهمك
                         </h5>
-
-
+                        <br>
+                        <ul class="list-unstyled mb-0" style="text-align: right;">
+                            <li>
+                                <a href="data-company.html" class="text-white" style="color: #e49102; font-size: 18px;">
+                                    * عن
+                                    الشركة</a>
+                            </li>
+                            <li>
+                                <a href="active-company.html" class="text-white"
+                                    style="color: #e49102;font-size: 16px;"> * أنشطة
+                                    الشركة</a>
+                            </li>
+                            <li>
+                                <a href="Board.html" class="text-white" style="color: #e49102;font-size: 18px;">*
+                                    مجلس
+                                    الإدارة</a>
+                            </li>
+                            <li>
+                                <a href="#gallary" class="text-white" style="color: #e49102; font-size: 18px;"> *
+                                    معرض
+                                    الصور</a>
+                            </li>
+                            <li>
+                                <a href="#blog" class="text-white" style="color: #e49102;font-size: 18px;"> *
+                                    الأخبار</a>
+                            </li>
+                        </ul>
                     </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+
+                    <img src="assets/img/logoff.gif" style="width:170px;height:170px;" />
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0" style="text-align:center;">
+                        <h5 class="text-uppercase" style="color:white; font-size: 22px;">الشركة القابضة للنقل البحري
+                            والبري </h5>
+
+                        <p style="color: #e49102;font-size: 16px;">
+                            هي شركة حكومية قابضة مصرية، تمتلكها وزارة النقل،تتولى الشركة في مجال نشاطها ومن خلال
+                            الشركات التابعة لها المشاركة في تنمية الاقتصاد القومي في إطار السياسة العامة للدولة،
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+
                 </div>
-                <div class="box b2">
-                    <div class="img-box">
-                        <img src="import_link/images/min_trade.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5> <a href="http://www.mti.gov.eg/Arabic/Pages/default.aspx" target="_blank"> وزارة التجارة
-                                والصناعه </a> </h5>
-
-
-
-                    </div>
-                </div>
-                <div class="box b1">
-                    <div class="img-box">
-                        <img src="import_link/images/mof_gov.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://mof.gov.eg/ar" target="_blank"> وزارة المالية المصرية </a> </h5>
-
-
-                    </div>
-                </div>
-                <div class="box b2">
-                    <div class="img-box">
-                        <img src="import_link/images/maritime.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5> <a href="https://www.mts.gov.eg/#" target="_blank"> قطاع النقل البحرى </a> </h5>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <hr>
-    <section id="contact">
-        <!-- =============== container =============== -->
-        <div class="container">
-            <div class="row">
-
-            </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+            <br><br><br> <br><br><br><br><br><br><br><br><br>
 
             <div style="margin-bottom: 200px" class="row">
-         
+
                 <!---------wither--------->
                 <div style="position: relative;padding-bottom: 100px; "
-                    class="col-xs-12 col-sm-12 col-md-12 wow bounceIn animated" data-wow-delay=".1s">
+                    class="col-xs-6 col-sm-6 col-md-6 wow bounceIn animated" data-wow-delay=".1s">
 
                     <form action="#" method="post">
                         <div class="ajax-hidden">
-                            <div class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+                            <div class="col-xs-6 col-sm-6 col-md-6 form-group wow fadeInUp animated">
 
                                 <!-- Start WX Widget Code -->
                                 <div
-                                    style="color: #455052;max-width: 370px;width: 100%;border: 3px solid #428bca;background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);font-weight: bolder;padding: 29px;margin-top: -179px;">
+                                    style="color: #455052;max-width: 250px;width: 100%;border: 3px  solid  #428bca; background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);font-weight: bolder;padding: 29px;margin-top: -179px;">
                                     <script src="https://www.weatherwx.com/weather-js-current/eg/cairo.js"></script>
                                 </div><!-- End WX Widget Code -->
                             </div>
 
                             <div data-wow-delay=".1s"
-                                class="col-xs-12 col-sm-6 col-md-6 form-group wow fadeInUp animated">
+                                class="col-xs-6 col-sm-6 col-md-6 form-group wow fadeInUp animated">
 
                                 <!-- Start WX Widget Code -->
                                 <div
-                                    style="color: #455052;max-width: 370px;width: 100%;border: 3px solid #428bca;background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);font-weight: bolder;padding: 29px;margin-top: -179px;">
+                                    style="color: #455052;max-width:250px;width: 100%;border: 3px solid #428bca;background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);font-weight: bolder;padding: 29px;margin-top: -179px;">
                                     <script
                                         src="https://www.weatherwx.com/weather-js-current/eg/alexandria.js"></script>
                                 </div><!-- End WX Widget Code -->
                             </div>
 
                             <!--<div data-wow-delay=".2s" class="col-xs-12 col-sm-12 col-md-12 form-group wow fadeInUp animated">
-								<textarea placeholder="Message" rows="7" name="description" id="description" class="form-control" required=""></textarea>
-							</div>-->
+                                    <textarea placeholder="Message" rows="7" name="description" id="description" class="form-control" required=""></textarea>
+                                </div>-->
 
                             <!--<button data-wow-delay=".3s" class="btn btn-sm btn-block wow fadeInUp animated" type="submit">Send Message</button>-->
                         </div>
@@ -1312,178 +1755,113 @@
 
                 </div>
             </div>
-
-
-        </div>
-        <script type='text/javascript'
-        src='https://www.freevisitorcounters.com/auth.php?id=c0bf05a591d1e62ab9a2b97152159e042531e182'></script>
-    <script type="text/javascript"
-        src="https://www.freevisitorcounters.com/en/home/counter/1039332/t/10"></script>
-
-        <!------footer/map-------->
-        <div class="containere">
-
-
-
-            <div class="text-block">
-                <h4
-                    style="color:black;font-weight: bolder;font-family: 'Tajawal', sans-serif;text-shadow: 2px 2px #fff;">
-                    مقر الشركة-الاسكندرية</h4>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13651.190265700272!2d29.89968003817488!3d31.198625798253453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c3927a50b39d%3A0x1000094534c0c8d4!2sThe%20Holding%20Company%20for%20Maritime%20and%20Land%20Transport!5e0!3m2!1sen!2seg!4v1645693250337!5m2!1sen!2seg"
-                    width="370" height="125" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
-
+            <br><br>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color:transparent;color: white;">
+                سياسة الخصوصية / جميع الحقوق محفوظة © 2023 تصميم وتطوير قطاع نظم المعلومات
 
 
             </div>
-
+            <!-- Copyright -->
         </div>
-        <div class="containere">
+        <!-- Grid container -->
 
-            <div class="text-block1">
-                <h4
-                    style="color:black;font-weight: bolder;font-family: 'Tajawal', sans-serif;text-shadow: 2px 2px #fff;">
-                    مقر الشركة-القاهرة</h4>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.9302555899794!2d31.31723971545205!3d30.09618372308075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815887f3f3103%3A0x9c0351d6e640d34!2z2KfZhNi02LHZg9ipINin2YTZgtin2KjYttipINmE2YTZhtmC2YQg2KfZhNio2K3YsdmJINmI2KfZhNio2LHZiQ!5e0!3m2!1sen!2seg!4v1645693639209!5m2!1sen!2seg"
-                    width="370" height="125" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"
+                style="display: block; width: 3%; height: 3%; line-height: inherit;background-color:brown;"></i></a>
 
-
-            </div>
-        </div>
-      
-        <br>
-        <div class="container">
-            <div class="row">
-
-                <div>
-                    <p
-                        style="text-align: center;color: #ae1419fc; font-weight: bolder;text-shadow: 1px 1px #3a3636;color:rgb(223, 138, 47);margin-bottom: -73px;">
-                        <br><br>
-                        مقر الشركة-الاسكندرية: 71 طريق الحرية.
-
-                        4965275 – 4965273 203
-                        <br>
-                        البريد الالكترونى : holding@hcmlt.com <br><br>مقر الشركة-القاهرة : 19ش المعهدالاشتراكى روكسى –
-                        مصر
-                        الجديدة
-                        .
-                        <br>
-                        22586137-22586138 – 22586139 – 22586140 202+
-                        البريد الالكترونى : itc_cairo@hcmlt.com
-                        <br><br>
-                    </p>
-
-               
-
-                    <p>
-                </div>
-
-            </div>
-
-        </div>
-        <hr>
-        <br>
-        <div class="container">
-            <div class="row">
-
-                <div>
-
-                    <!----    <p
-                        style="text-align: center;color: #053978fc; font-weight: bolder;text-shadow: 2px 2px #fff;color:rgb(47, 26, 235);margin-bottom: -73px;">
-                        <span><a href="https://www.facebook.com/hcmltco?mibextid=ZbWKwL" , target="_blank"><img
-                                    src="assets/img/fb.png" , height="20px" ,width="20px" ;></a></span>تابعناعلى صفحات
-                        التواصل الاجتماعي&nbsp;
-                    </p>-->
-
-
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div>
-                    <p
-                        style="text-align: center;color: #053978fc; font-weight: bolder;text-shadow: 2px 2px #fff;color:black;margin-bottom: -73px;">
-                        <br>سياسة الخصوصية / جميع الحقوق محفوظة © 2023 تصميم وتطوير قطاع نظم المعلومات
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
+    </footer>
 
 
 
-        <!-- =============== container end =============== 
-	</section>
-       
+    <!-- =============== container end =============== >
 
-    <!-- Footer -->
 
-        <!-- =============== jQuery =============== -->
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/isotope-docs.min.js"></script>
-        <!-- =============== Bootstrap Core JavaScript =============== -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- =============== Plugin JavaScript =============== -->
-        <script src="assets/js/jquery.easing.min.js"></script>
-        <script src="assets/js/jquery.fittext.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <!-- =============== owl carousel =============== -->
-        <script src="assets/owl-carousel/owl.carousel.js"></script>
-        <!-- Isotope does NOT require jQuery. But it does make things easier -->
 
-        <script src="assets/js/baguetteBox.js" async></script>
-        <script src="assets/js/plugins.js" async></script>
+ 
+    <!-- =============== jQuery =============== -->
+    <script src="assets/js/jquery.backtotop.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/isotope-docs.min.js"></script>
+    <!-- =============== Bootstrap Core JavaScript =============== -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- =============== Plugin JavaScript =============== -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.fittext.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <!-- =============== owl carousel =============== -->
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
 
-        <!-- =============== Custom Theme JavaScript =============== -->
-        <script src="assets/js/creative.js">	</script>
-        <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <!-- Isotope does NOT require jQuery. But it does make things easier -->
 
-        <script>
-            $(document).ready(function () {
 
-                var nice = $("html").niceScroll();  // The document page (body)
+    <script src="assets/js/baguetteBox.js" async></script>
+    <script src="assets/js/plugins.js" async></script>
 
-                $("#div1").html($("#div1").html() + ' ' + nice.version);
+    <!-- =============== Custom Theme JavaScript =============== -->
+    <script src="assets/js/creative.js">	</script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
 
-                $("#boxscroll").niceScroll({ cursorborder: "", cursorcolor: "#00F", boxzoom: true }); // First scrollable DIV
 
-                $("#boxscroll2").niceScroll("#contentscroll2", { cursorcolor: "#F00", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // Second scrollable DIV
-                $("#boxframe").niceScroll("#boxscroll3", { cursorcolor: "#0F0", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // This is an IFrame (iPad compatible)
 
-                $("#boxscroll4").niceScroll("#boxscroll4 .wrapper", { boxzoom: true });  // hw acceleration enabled when using wrapper
+    <!----logo-companies-->
 
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            var nice = $("html").niceScroll();  // The document page (body)
+
+            $("#div1").html($("#div1").html() + ' ' + nice.version);
+
+            $("#boxscroll").niceScroll({ cursorborder: "", cursorcolor: "#00F", boxzoom: true }); // First scrollable DIV
+
+            $("#boxscroll2").niceScroll("#contentscroll2", { cursorcolor: "#F00", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // Second scrollable DIV
+            $("#boxframe").niceScroll("#boxscroll3", { cursorcolor: "#0F0", cursoropacitymax: 0.7, boxzoom: true, touchbehavior: true });  // This is an IFrame (iPad compatible)
+
+            $("#boxscroll4").niceScroll("#boxscroll4 .wrapper", { boxzoom: true });  // hw acceleration enabled when using wrapper
+
+        });
+    </script>
+    <script>
+        window.onload = function () {
+            if (typeof oldIE === 'undefined' && Object.keys)
+                hljs.initHighlighting();
+
+            baguetteBox.run('.baguetteBoxOne');
+            baguetteBox.run('.baguetteBoxTwo');
+            baguetteBox.run('.baguetteBoxThree', {
+                animation: 'fadeIn'
             });
-        </script>
-        <script>
-            window.onload = function () {
-                if (typeof oldIE === 'undefined' && Object.keys)
-                    hljs.initHighlighting();
-
-                baguetteBox.run('.baguetteBoxOne');
-                baguetteBox.run('.baguetteBoxTwo');
-                baguetteBox.run('.baguetteBoxThree', {
-                    animation: 'fadeIn'
-                });
-                baguetteBox.run('.baguetteBoxFour', {
-                    buttons: false
-                });
-                baguetteBox.run('.baguetteBoxFive', {
-                    captions: function (element) {
-                        return element.getElementsByTagName('img')[0].alt;
-                    }
-                });
-            };
+            baguetteBox.run('.baguetteBoxFour', {
+                buttons: false
+            });
+            baguetteBox.run('.baguetteBoxFive', {
+                captions: function (element) {
+                    return element.getElementsByTagName('img')[0].alt;
+                }
+            });
+        };
 
 
 
+        $(document).ready(function () {
+            $('video').prop('', true).play()
+        });
+
+    </script>
 
 
-        </script>
+    <!------visitor counter-->
+    <!--<div class="visitor" style="text-align: right;">
+                <script type='text/javascript'
+                    src='https://www.freevisitorcounters.com/auth.php?id=c0bf05a591d1e62ab9a2b97152159e042531e182'></script>
+                <script type="text/javascript"
+                    src="https://www.freevisitorcounters.com/en/home/counter/1039332/t/10"></script>
+
+            </div>-->
+
 
 
 </body>
